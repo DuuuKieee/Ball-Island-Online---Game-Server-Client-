@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
 
     public GameObject startMenu;
+    public GameObject GameCam1, GameCam2;
     public InputField usernameField;
 
     private void Awake()
@@ -26,6 +27,7 @@ public class UIManager : MonoBehaviour
     /// <summary>Attempts to connect to the server.</summary>
     public void ConnectToServer()
     {
+        GameCam1.SetActive(false);
         startMenu.SetActive(false);
         usernameField.interactable = false;
         Client.instance.ConnectToServer();
