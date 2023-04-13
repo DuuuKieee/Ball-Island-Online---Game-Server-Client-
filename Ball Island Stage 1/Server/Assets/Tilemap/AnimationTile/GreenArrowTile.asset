@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: GreenArrowTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 3476893249437557938, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: 9178431555877237081, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: 7017576183636958768, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: -8492826044513330331, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: -6794791824051995078, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: -2508554969927981459, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  m_MinSpeed: 7
+  m_MaxSpeed: 7
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

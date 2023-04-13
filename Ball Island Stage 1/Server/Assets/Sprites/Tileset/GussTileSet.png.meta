@@ -1,0 +1,6256 @@
+fileFormatVersion: 2
+guid: 5816946b46f4fef42be3219118b55fdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3065773298055475122
+    second: GussTileSet_0
+  - first:
+      213: -9204370731817508726
+    second: GussTileSet_1
+  - first:
+      213: 6453143510051975475
+    second: GussTileSet_2
+  - first:
+      213: -5863554917277021459
+    second: GussTileSet_3
+  - first:
+      213: -7383848483963341088
+    second: GussTileSet_4
+  - first:
+      213: 3672278170846696602
+    second: GussTileSet_5
+  - first:
+      213: 5292191804345562285
+    second: GussTileSet_13
+  - first:
+      213: 1671095829169548682
+    second: GussTileSet_14
+  - first:
+      213: 4360765948754692533
+    second: GussTileSet_15
+  - first:
+      213: 1245681744876431955
+    second: GussTileSet_16
+  - first:
+      213: -168934415157924927
+    second: GussTileSet_17
+  - first:
+      213: 5235374140545500976
+    second: GussTileSet_25
+  - first:
+      213: 8171114788344275547
+    second: GussTileSet_26
+  - first:
+      213: 8734341625827411913
+    second: GussTileSet_27
+  - first:
+      213: -6885050767499639374
+    second: GussTileSet_28
+  - first:
+      213: -668734758483009342
+    second: GussTileSet_29
+  - first:
+      213: 7352982955984338955
+    second: GussTileSet_30
+  - first:
+      213: 6762745349436708584
+    second: GussTileSet_38
+  - first:
+      213: 4136850895077932138
+    second: GussTileSet_39
+  - first:
+      213: -6707060911809214394
+    second: GussTileSet_40
+  - first:
+      213: 6534916778416023802
+    second: GussTileSet_41
+  - first:
+      213: -6416634130374276689
+    second: GussTileSet_42
+  - first:
+      213: 5575498135724115739
+    second: GussTileSet_50
+  - first:
+      213: -3413436504853471242
+    second: GussTileSet_51
+  - first:
+      213: 7427819925241832206
+    second: GussTileSet_52
+  - first:
+      213: -3694905856889970991
+    second: GussTileSet_53
+  - first:
+      213: -3222802831604335019
+    second: GussTileSet_54
+  - first:
+      213: -3376482372887458071
+    second: GussTileSet_55
+  - first:
+      213: 3206520574047682444
+    second: GussTileSet_63
+  - first:
+      213: -7289945661125707708
+    second: GussTileSet_64
+  - first:
+      213: -6747702451937471468
+    second: GussTileSet_65
+  - first:
+      213: 2803091249466349616
+    second: GussTileSet_66
+  - first:
+      213: 6328148851197231534
+    second: GussTileSet_67
+  - first:
+      213: -2081361025955674734
+    second: GussTileSet_75
+  - first:
+      213: 8470883108653563293
+    second: GussTileSet_76
+  - first:
+      213: 8716724128346503187
+    second: GussTileSet_77
+  - first:
+      213: -7915623454194735459
+    second: GussTileSet_78
+  - first:
+      213: -6073315664536730541
+    second: GussTileSet_79
+  - first:
+      213: -3057795182994430945
+    second: GussTileSet_80
+  - first:
+      213: 6262399419891377685
+    second: GussTileSet_81
+  - first:
+      213: -8684910245960119030
+    second: GussTileSet_82
+  - first:
+      213: -5898182048362584897
+    second: GussTileSet_83
+  - first:
+      213: 1305805039145414740
+    second: GussTileSet_84
+  - first:
+      213: -3724158844632052087
+    second: GussTileSet_92
+  - first:
+      213: 8214222816277530057
+    second: GussTileSet_93
+  - first:
+      213: 3786091729948239523
+    second: GussTileSet_94
+  - first:
+      213: -1227673262356477909
+    second: GussTileSet_95
+  - first:
+      213: 6745607884274868655
+    second: GussTileSet_96
+  - first:
+      213: 6254253802643161701
+    second: GussTileSet_105
+  - first:
+      213: -2821117912603420753
+    second: GussTileSet_106
+  - first:
+      213: 3005974623080240380
+    second: GussTileSet_107
+  - first:
+      213: 6471173460372354906
+    second: GussTileSet_108
+  - first:
+      213: -1498396703613266905
+    second: GussTileSet_109
+  - first:
+      213: -7094584368734564023
+    second: GussTileSet_110
+  - first:
+      213: 8448401800415341128
+    second: GussTileSet_111
+  - first:
+      213: -6440547361240997383
+    second: GussTileSet_112
+  - first:
+      213: -6251110315869989523
+    second: GussTileSet_113
+  - first:
+      213: -3210911803576291247
+    second: GussTileSet_121
+  - first:
+      213: -4870159804402062162
+    second: GussTileSet_122
+  - first:
+      213: 1116702311271226345
+    second: GussTileSet_123
+  - first:
+      213: 6030415584248280191
+    second: GussTileSet_124
+  - first:
+      213: -5168799400072600225
+    second: GussTileSet_125
+  - first:
+      213: -1644139322509834217
+    second: GussTileSet_132
+  - first:
+      213: 3027494470591266400
+    second: GussTileSet_133
+  - first:
+      213: 7184535344414111163
+    second: GussTileSet_134
+  - first:
+      213: 2731068019675751562
+    second: GussTileSet_135
+  - first:
+      213: -8021995059073184928
+    second: GussTileSet_136
+  - first:
+      213: 1468793017869765323
+    second: GussTileSet_137
+  - first:
+      213: 9208787934546365307
+    second: GussTileSet_138
+  - first:
+      213: -2655549720347957275
+    second: GussTileSet_139
+  - first:
+      213: 7794573484505701727
+    second: GussTileSet_140
+  - first:
+      213: 85397676625650328
+    second: GussTileSet_141
+  - first:
+      213: 3724370139763187983
+    second: GussTileSet_142
+  - first:
+      213: 7120036243398465243
+    second: GussTileSet_143
+  - first:
+      213: -3520571902847380837
+    second: GussTileSet_144
+  - first:
+      213: 5848886425869748235
+    second: GussTileSet_145
+  - first:
+      213: 860930624766280147
+    second: GussTileSet_150
+  - first:
+      213: -7088054105465508331
+    second: GussTileSet_151
+  - first:
+      213: -8921541141591449679
+    second: GussTileSet_152
+  - first:
+      213: -1337261678258573818
+    second: GussTileSet_153
+  - first:
+      213: -3611800231553175743
+    second: GussTileSet_154
+  - first:
+      213: 6064209291262045487
+    second: GussTileSet_155
+  - first:
+      213: -219916213042001344
+    second: GussTileSet_156
+  - first:
+      213: -3308290514042340812
+    second: GussTileSet_157
+  - first:
+      213: 7349938244396916467
+    second: GussTileSet_158
+  - first:
+      213: 2778225106213417353
+    second: GussTileSet_159
+  - first:
+      213: -1069685848921508966
+    second: GussTileSet_160
+  - first:
+      213: -3585142871472490415
+    second: GussTileSet_165
+  - first:
+      213: -406882174029579111
+    second: GussTileSet_166
+  - first:
+      213: -3902212140304482193
+    second: GussTileSet_167
+  - first:
+      213: 7782080101221173343
+    second: GussTileSet_168
+  - first:
+      213: 5063112746156948534
+    second: GussTileSet_169
+  - first:
+      213: -7885046107372961409
+    second: GussTileSet_170
+  - first:
+      213: 6751744247224373990
+    second: GussTileSet_171
+  - first:
+      213: -1100583251893697575
+    second: GussTileSet_172
+  - first:
+      213: -8634899250659831412
+    second: GussTileSet_173
+  - first:
+      213: -1744940442741473778
+    second: GussTileSet_174
+  - first:
+      213: 3280388765272135491
+    second: GussTileSet_175
+  - first:
+      213: 3786936321891318682
+    second: GussTileSet_176
+  - first:
+      213: -330753030761497740
+    second: GussTileSet_177
+  - first:
+      213: -9084425242245692949
+    second: GussTileSet_178
+  - first:
+      213: -4660092102374436263
+    second: GussTileSet_182
+  - first:
+      213: -2337740497469092534
+    second: GussTileSet_183
+  - first:
+      213: 125543245635895973
+    second: GussTileSet_184
+  - first:
+      213: 2286306965817238946
+    second: GussTileSet_185
+  - first:
+      213: 575931078237031675
+    second: GussTileSet_186
+  - first:
+      213: -3429897627685211278
+    second: GussTileSet_187
+  - first:
+      213: -7393621324896841857
+    second: GussTileSet_188
+  - first:
+      213: -8471719998187912680
+    second: GussTileSet_189
+  - first:
+      213: 6632694791664022653
+    second: GussTileSet_190
+  - first:
+      213: -8977577672161483154
+    second: GussTileSet_191
+  - first:
+      213: -8418414715468504562
+    second: GussTileSet_192
+  - first:
+      213: -1916846118681428403
+    second: GussTileSet_196
+  - first:
+      213: 3329314175834472955
+    second: GussTileSet_197
+  - first:
+      213: 1778022002197068910
+    second: GussTileSet_198
+  - first:
+      213: 7166954272665104316
+    second: GussTileSet_199
+  - first:
+      213: -2711538788094242177
+    second: GussTileSet_200
+  - first:
+      213: -7950303972281164306
+    second: GussTileSet_201
+  - first:
+      213: -2408308106952427880
+    second: GussTileSet_202
+  - first:
+      213: 7796917465224120723
+    second: GussTileSet_203
+  - first:
+      213: 2477072299160005618
+    second: GussTileSet_204
+  - first:
+      213: -8493447635749979617
+    second: GussTileSet_205
+  - first:
+      213: -2901207000685685475
+    second: GussTileSet_206
+  - first:
+      213: 1194658598452989616
+    second: GussTileSet_207
+  - first:
+      213: -2410181240339332864
+    second: GussTileSet_208
+  - first:
+      213: 5081266198345957543
+    second: GussTileSet_209
+  - first:
+      213: 7742890264274252397
+    second: GussTileSet_213
+  - first:
+      213: -1004640978954506710
+    second: GussTileSet_214
+  - first:
+      213: -5938526734702466628
+    second: GussTileSet_215
+  - first:
+      213: 55008152960543383
+    second: GussTileSet_216
+  - first:
+      213: 187028639466064735
+    second: GussTileSet_217
+  - first:
+      213: -7267384081790538282
+    second: GussTileSet_218
+  - first:
+      213: -5423428235314003455
+    second: GussTileSet_219
+  - first:
+      213: 588370078923563789
+    second: GussTileSet_220
+  - first:
+      213: 8786509475143977964
+    second: GussTileSet_221
+  - first:
+      213: 8292952676215933446
+    second: GussTileSet_222
+  - first:
+      213: 6092294478238192285
+    second: GussTileSet_226
+  - first:
+      213: 8563298995427617835
+    second: GussTileSet_227
+  - first:
+      213: -1334315611548047831
+    second: GussTileSet_228
+  - first:
+      213: -2332707222816448365
+    second: GussTileSet_229
+  - first:
+      213: 5508958645117608573
+    second: GussTileSet_230
+  - first:
+      213: -6436421029118758440
+    second: GussTileSet_231
+  - first:
+      213: -6915240940234464771
+    second: GussTileSet_232
+  - first:
+      213: 4304946753964581414
+    second: GussTileSet_233
+  - first:
+      213: 5500714374585081446
+    second: GussTileSet_234
+  - first:
+      213: 4375537583258919031
+    second: GussTileSet_235
+  - first:
+      213: 970999664834091220
+    second: GussTileSet_236
+  - first:
+      213: -5300697734647509368
+    second: GussTileSet_237
+  - first:
+      213: -5212115041623879475
+    second: GussTileSet_243
+  - first:
+      213: 84712670532628081
+    second: GussTileSet_244
+  - first:
+      213: -6570535029644613918
+    second: GussTileSet_245
+  - first:
+      213: -1780735030304146105
+    second: GussTileSet_246
+  - first:
+      213: 4550454472642519310
+    second: GussTileSet_247
+  - first:
+      213: -7166471667998051542
+    second: GussTileSet_248
+  - first:
+      213: 3074707571886231429
+    second: GussTileSet_249
+  - first:
+      213: -2100353681784474634
+    second: GussTileSet_250
+  - first:
+      213: 3019109198792579041
+    second: GussTileSet_251
+  - first:
+      213: 7564107371070430110
+    second: GussTileSet_256
+  - first:
+      213: -8300363190766329742
+    second: GussTileSet_257
+  - first:
+      213: -1101237673796348773
+    second: GussTileSet_258
+  - first:
+      213: -2571783288229705176
+    second: GussTileSet_259
+  - first:
+      213: 5239745570498223314
+    second: GussTileSet_260
+  - first:
+      213: 8007492851421810853
+    second: GussTileSet_261
+  - first:
+      213: -5193817832601384567
+    second: GussTileSet_262
+  - first:
+      213: -663625264146513979
+    second: GussTileSet_268
+  - first:
+      213: -6349464245424599516
+    second: GussTileSet_269
+  - first:
+      213: 7164515029654708526
+    second: GussTileSet_270
+  - first:
+      213: -4784210222211036180
+    second: GussTileSet_271
+  - first:
+      213: -8940844117348841203
+    second: GussTileSet_272
+  - first:
+      213: -3016905816478494436
+    second: GussTileSet_273
+  - first:
+      213: -7343047813365536521
+    second: GussTileSet_274
+  - first:
+      213: 3183654931198608016
+    second: GussTileSet_275
+  - first:
+      213: -410029139623230403
+    second: GussTileSet_276
+  - first:
+      213: -4251982324489592644
+    second: GussTileSet_277
+  - first:
+      213: 9106196841117189473
+    second: GussTileSet_281
+  - first:
+      213: -6156849052508908932
+    second: GussTileSet_282
+  - first:
+      213: 413385762261484775
+    second: GussTileSet_283
+  - first:
+      213: -7964660568694014042
+    second: GussTileSet_284
+  - first:
+      213: -2669752618853223504
+    second: GussTileSet_285
+  - first:
+      213: -6400542013485703968
+    second: GussTileSet_286
+  - first:
+      213: 1009880514327195536
+    second: GussTileSet_287
+  - first:
+      213: 1583157614142179749
+    second: GussTileSet_288
+  - first:
+      213: 5119032782093559627
+    second: GussTileSet_292
+  - first:
+      213: 7593891512127033176
+    second: GussTileSet_293
+  - first:
+      213: -690712736494030069
+    second: GussTileSet_294
+  - first:
+      213: -3477295683286911367
+    second: GussTileSet_295
+  - first:
+      213: 1386075347060716784
+    second: GussTileSet_296
+  - first:
+      213: -3460710899821257260
+    second: GussTileSet_297
+  - first:
+      213: -8134829169583887616
+    second: GussTileSet_298
+  - first:
+      213: 9046312367390693834
+    second: GussTileSet_299
+  - first:
+      213: -5772050592455780390
+    second: GussTileSet_300
+  - first:
+      213: 8300807583843197367
+    second: GussTileSet_304
+  - first:
+      213: -1285691189972820954
+    second: GussTileSet_305
+  - first:
+      213: -6621771594684489964
+    second: GussTileSet_306
+  - first:
+      213: -2675480986147430609
+    second: GussTileSet_307
+  - first:
+      213: 7904569189060438180
+    second: GussTileSet_308
+  - first:
+      213: 146949764127839088
+    second: GussTileSet_309
+  - first:
+      213: 3603444630492380021
+    second: GussTileSet_310
+  - first:
+      213: -5575476897577470179
+    second: GussTileSet_311
+  - first:
+      213: -6128738779808094202
+    second: GussTileSet_312
+  - first:
+      213: 1543184667555712823
+    second: GussTileSet_313
+  - first:
+      213: -7352522296932999907
+    second: GussTileSet_314
+  - first:
+      213: 6369646906591395666
+    second: GussTileSet_316
+  - first:
+      213: -1897427137940032331
+    second: GussTileSet_317
+  - first:
+      213: 7606933301466177780
+    second: GussTileSet_318
+  - first:
+      213: -6647757552759126667
+    second: GussTileSet_319
+  - first:
+      213: 6096876322825244017
+    second: GussTileSet_320
+  - first:
+      213: -4642104727786647662
+    second: GussTileSet_321
+  - first:
+      213: -8987681251776976164
+    second: GussTileSet_322
+  - first:
+      213: -1707669701689296484
+    second: GussTileSet_323
+  - first:
+      213: -5502008025260558746
+    second: GussTileSet_324
+  - first:
+      213: -5281815375823484681
+    second: GussTileSet_325
+  - first:
+      213: -4521551885403434285
+    second: GussTileSet_326
+  - first:
+      213: -543281905175880874
+    second: GussTileSet_327
+  - first:
+      213: 4495021270308358818
+    second: GussTileSet_328
+  - first:
+      213: 6559121616904386725
+    second: GussTileSet_329
+  - first:
+      213: -3177286688667338140
+    second: GussTileSet_330
+  - first:
+      213: -8455676770916531674
+    second: GussTileSet_331
+  - first:
+      213: -2126584931394056719
+    second: GussTileSet_332
+  - first:
+      213: -2628539651079789038
+    second: GussTileSet_333
+  - first:
+      213: 757423131324848716
+    second: GussTileSet_334
+  - first:
+      213: 1309032956171941017
+    second: GussTileSet_335
+  - first:
+      213: -4998893670951920528
+    second: GussTileSet_336
+  - first:
+      213: 3697259266394257911
+    second: GussTileSet_337
+  - first:
+      213: 4428606261002337665
+    second: GussTileSet_338
+  - first:
+      213: -9201257096462814012
+    second: GussTileSet_340
+  - first:
+      213: -1619616280761994244
+    second: GussTileSet_341
+  - first:
+      213: -4544867046148897662
+    second: GussTileSet_342
+  - first:
+      213: 4835089562024688299
+    second: GussTileSet_343
+  - first:
+      213: -4062973911929960419
+    second: GussTileSet_344
+  - first:
+      213: 4578399013658079446
+    second: GussTileSet_345
+  - first:
+      213: 458473205996069304
+    second: GussTileSet_346
+  - first:
+      213: 1645167041868546912
+    second: GussTileSet_347
+  - first:
+      213: -8396666953997629347
+    second: GussTileSet_348
+  - first:
+      213: -5086348802179488153
+    second: GussTileSet_349
+  - first:
+      213: 4364389460230936868
+    second: GussTileSet_350
+  - first:
+      213: -6806710099468019442
+    second: GussTileSet_351
+  - first:
+      213: -5991554204708705461
+    second: GussTileSet_352
+  - first:
+      213: -4097760259046544100
+    second: GussTileSet_353
+  - first:
+      213: -6222496947506782893
+    second: GussTileSet_354
+  - first:
+      213: -3356617954444100437
+    second: GussTileSet_355
+  - first:
+      213: 2454655722111028040
+    second: GussTileSet_356
+  - first:
+      213: 5949951436566280415
+    second: GussTileSet_357
+  - first:
+      213: -3363937164182732101
+    second: GussTileSet_358
+  - first:
+      213: -9935533046390165
+    second: GussTileSet_359
+  - first:
+      213: -7121875645942350258
+    second: GussTileSet_360
+  - first:
+      213: -6272948295257035072
+    second: GussTileSet_361
+  - first:
+      213: 7392660661784507551
+    second: GussTileSet_362
+  - first:
+      213: 197836579898506407
+    second: GussTileSet_363
+  - first:
+      213: 2856185506041151971
+    second: GussTileSet_364
+  - first:
+      213: 1263009499232028591
+    second: GussTileSet_366
+  - first:
+      213: 4055841767579981026
+    second: GussTileSet_367
+  - first:
+      213: -7740670371736709140
+    second: GussTileSet_368
+  - first:
+      213: -4544158265458768121
+    second: GussTileSet_369
+  - first:
+      213: 6006872349252741763
+    second: GussTileSet_370
+  - first:
+      213: 1941948336099642514
+    second: GussTileSet_371
+  - first:
+      213: 2617906525183902534
+    second: GussTileSet_372
+  - first:
+      213: -3805404259418216425
+    second: GussTileSet_373
+  - first:
+      213: 1010359193163824927
+    second: GussTileSet_374
+  - first:
+      213: -2421283108959304786
+    second: GussTileSet_375
+  - first:
+      213: -3888736995590710583
+    second: GussTileSet_376
+  - first:
+      213: -8973271276490946961
+    second: GussTileSet_377
+  - first:
+      213: -3435408477528095285
+    second: GussTileSet_378
+  - first:
+      213: 4892180321510808467
+    second: GussTileSet_379
+  - first:
+      213: -5734683460363175287
+    second: GussTileSet_380
+  - first:
+      213: 8360650956821291909
+    second: GussTileSet_381
+  - first:
+      213: -4571485527964053140
+    second: GussTileSet_382
+  - first:
+      213: -1106755420228790821
+    second: GussTileSet_383
+  - first:
+      213: 3748190533869146936
+    second: GussTileSet_384
+  - first:
+      213: -1084206023367965304
+    second: GussTileSet_385
+  - first:
+      213: 271936761782421649
+    second: GussTileSet_386
+  - first:
+      213: -3446765237470822739
+    second: GussTileSet_387
+  - first:
+      213: -6838353459397850701
+    second: GussTileSet_388
+  - first:
+      213: -68889537806148449
+    second: GussTileSet_389
+  - first:
+      213: -6771915995390335709
+    second: GussTileSet_390
+  - first:
+      213: 4788850928061863799
+    second: GussTileSet_392
+  - first:
+      213: 1207327057546301962
+    second: GussTileSet_393
+  - first:
+      213: -4905460694323050309
+    second: GussTileSet_394
+  - first:
+      213: 7145318857770509906
+    second: GussTileSet_395
+  - first:
+      213: 764223446503982386
+    second: GussTileSet_396
+  - first:
+      213: 5543316929741198403
+    second: GussTileSet_397
+  - first:
+      213: -5546190558216358113
+    second: GussTileSet_398
+  - first:
+      213: 3733639308462185491
+    second: GussTileSet_399
+  - first:
+      213: 3310342557831830539
+    second: GussTileSet_400
+  - first:
+      213: -305142148238638016
+    second: GussTileSet_401
+  - first:
+      213: 7236311512008624191
+    second: GussTileSet_402
+  - first:
+      213: -1795017142827767748
+    second: GussTileSet_403
+  - first:
+      213: 8456381061112892064
+    second: GussTileSet_406
+  - first:
+      213: -3265851180027549973
+    second: GussTileSet_407
+  - first:
+      213: 1191161551913831972
+    second: GussTileSet_408
+  - first:
+      213: -8275388648358516869
+    second: GussTileSet_409
+  - first:
+      213: -5947036314323532483
+    second: GussTileSet_410
+  - first:
+      213: 319067197906203335
+    second: GussTileSet_411
+  - first:
+      213: 5631684356870732758
+    second: GussTileSet_412
+  - first:
+      213: -9189292881714698547
+    second: GussTileSet_413
+  - first:
+      213: -2460880648842078232
+    second: GussTileSet_414
+  - first:
+      213: -4655182996919322038
+    second: GussTileSet_415
+  - first:
+      213: 8663300596771317239
+    second: GussTileSet_416
+  - first:
+      213: 3069974316969018963
+    second: GussTileSet_417
+  - first:
+      213: 4431782142082655564
+    second: GussTileSet_418
+  - first:
+      213: 5640209235637779200
+    second: GussTileSet_419
+  - first:
+      213: -8488079736646841961
+    second: GussTileSet_421
+  - first:
+      213: -1888086717828830614
+    second: GussTileSet_422
+  - first:
+      213: 2894773802148055084
+    second: GussTileSet_423
+  - first:
+      213: 867272277618676548
+    second: GussTileSet_424
+  - first:
+      213: -4220611306857860853
+    second: GussTileSet_425
+  - first:
+      213: 8305111160918013810
+    second: GussTileSet_426
+  - first:
+      213: 4487874100729631443
+    second: GussTileSet_427
+  - first:
+      213: 2730968742665038576
+    second: GussTileSet_428
+  - first:
+      213: -7520688405121244741
+    second: GussTileSet_429
+  - first:
+      213: -701019008319016591
+    second: GussTileSet_430
+  - first:
+      213: -8804667073350569505
+    second: GussTileSet_431
+  - first:
+      213: 5529094123815478660
+    second: GussTileSet_434
+  - first:
+      213: 1333435887097260550
+    second: GussTileSet_435
+  - first:
+      213: -6671095812695793976
+    second: GussTileSet_436
+  - first:
+      213: 8241364931366752394
+    second: GussTileSet_437
+  - first:
+      213: 4899921347615751806
+    second: GussTileSet_438
+  - first:
+      213: -194264851579348197
+    second: GussTileSet_439
+  - first:
+      213: 7370211115852472021
+    second: GussTileSet_440
+  - first:
+      213: 2751108865647673735
+    second: GussTileSet_441
+  - first:
+      213: -4561591243395416338
+    second: GussTileSet_442
+  - first:
+      213: -7425593314907557374
+    second: GussTileSet_443
+  - first:
+      213: -1314055281112212867
+    second: GussTileSet_444
+  - first:
+      213: 1312817884454538544
+    second: GussTileSet_445
+  - first:
+      213: 33101347369953894
+    second: GussTileSet_446
+  - first:
+      213: 7058720104762527415
+    second: GussTileSet_447
+  - first:
+      213: -5625740499448492752
+    second: GussTileSet_448
+  - first:
+      213: 3602208862473063596
+    second: GussTileSet_449
+  - first:
+      213: 4273092572026515899
+    second: GussTileSet_450
+  - first:
+      213: -3007663518743030392
+    second: GussTileSet_451
+  - first:
+      213: -2387256793198856375
+    second: GussTileSet_452
+  - first:
+      213: -4503200628665107574
+    second: GussTileSet_453
+  - first:
+      213: 3732872177290199864
+    second: GussTileSet_454
+  - first:
+      213: -873372080750574854
+    second: GussTileSet_455
+  - first:
+      213: 2640679726035092287
+    second: GussTileSet_456
+  - first:
+      213: 9088307437174918329
+    second: GussTileSet_457
+  - first:
+      213: 1103078361746803002
+    second: GussTileSet_458
+  - first:
+      213: 4765009549550327216
+    second: GussTileSet_459
+  - first:
+      213: 1943913315607235857
+    second: GussTileSet_460
+  - first:
+      213: 6449272650037657993
+    second: GussTileSet_461
+  - first:
+      213: 3553642299443034834
+    second: GussTileSet_462
+  - first:
+      213: -2244484534165893501
+    second: GussTileSet_463
+  - first:
+      213: 9214262139687209615
+    second: GussTileSet_464
+  - first:
+      213: 2366444572289905878
+    second: GussTileSet_465
+  - first:
+      213: -390736536974565145
+    second: GussTileSet_466
+  - first:
+      213: 2540132619095936029
+    second: GussTileSet_467
+  - first:
+      213: 5166256184513900357
+    second: GussTileSet_468
+  - first:
+      213: 4761728510893537222
+    second: GussTileSet_469
+  - first:
+      213: -1983849124216596415
+    second: GussTileSet_470
+  - first:
+      213: -1191068020196283830
+    second: GussTileSet_471
+  - first:
+      213: 5622602915965714662
+    second: GussTileSet_472
+  - first:
+      213: -340673868066116334
+    second: GussTileSet_473
+  - first:
+      213: -6816915250084392382
+    second: GussTileSet_474
+  - first:
+      213: -5416396925722037518
+    second: GussTileSet_475
+  - first:
+      213: 3634845163944604290
+    second: GussTileSet_476
+  - first:
+      213: 4106501844520561363
+    second: GussTileSet_477
+  - first:
+      213: -1930468044682966374
+    second: GussTileSet_478
+  - first:
+      213: -810274433608162478
+    second: GussTileSet_479
+  - first:
+      213: 516082143254168692
+    second: GussTileSet_480
+  - first:
+      213: -1798025687933789844
+    second: GussTileSet_481
+  - first:
+      213: -5012520773798199097
+    second: GussTileSet_482
+  - first:
+      213: 6069611176959476311
+    second: GussTileSet_483
+  - first:
+      213: -5349213234349671706
+    second: GussTileSet_484
+  - first:
+      213: -7785720550292200540
+    second: GussTileSet_485
+  - first:
+      213: 195186936253904496
+    second: GussTileSet_486
+  - first:
+      213: 669688186013437456
+    second: GussTileSet_487
+  - first:
+      213: 2779815511540702077
+    second: GussTileSet_488
+  - first:
+      213: 231394201301341542
+    second: GussTileSet_490
+  - first:
+      213: -4406307372109765789
+    second: GussTileSet_491
+  - first:
+      213: 176151555704912931
+    second: GussTileSet_492
+  - first:
+      213: 6540751893832357250
+    second: GussTileSet_493
+  - first:
+      213: 2693301733587866727
+    second: GussTileSet_494
+  - first:
+      213: 6370424412165158617
+    second: GussTileSet_495
+  - first:
+      213: 4203035154821817010
+    second: GussTileSet_496
+  - first:
+      213: 5264860286872449104
+    second: GussTileSet_497
+  - first:
+      213: -9165810643942549969
+    second: GussTileSet_498
+  - first:
+      213: -4614663524218791083
+    second: GussTileSet_499
+  - first:
+      213: 4114683827572257027
+    second: GussTileSet_500
+  - first:
+      213: -3710203878443378813
+    second: GussTileSet_501
+  - first:
+      213: -7795230209007112516
+    second: GussTileSet_502
+  - first:
+      213: -4555267159368472650
+    second: GussTileSet_503
+  - first:
+      213: -1848849368259860234
+    second: GussTileSet_504
+  - first:
+      213: 1935163808026592846
+    second: GussTileSet_505
+  - first:
+      213: 1136082203918811342
+    second: GussTileSet_506
+  - first:
+      213: -2222219922055553325
+    second: GussTileSet_507
+  - first:
+      213: -8250150220069558236
+    second: GussTileSet_508
+  - first:
+      213: 3290491574582801378
+    second: GussTileSet_509
+  - first:
+      213: 5138795617500687994
+    second: GussTileSet_510
+  - first:
+      213: -1738690433969437430
+    second: GussTileSet_511
+  - first:
+      213: 6181868619818449732
+    second: GussTileSet_512
+  - first:
+      213: -2926457085330591644
+    second: GussTileSet_513
+  - first:
+      213: -299184595631833212
+    second: GussTileSet_514
+  - first:
+      213: -743512898436129321
+    second: GussTileSet_515
+  - first:
+      213: 8013780722299790230
+    second: GussTileSet_516
+  - first:
+      213: 5574174006520155256
+    second: GussTileSet_517
+  - first:
+      213: -1224017849373158485
+    second: GussTileSet_519
+  - first:
+      213: 8478861648918062486
+    second: GussTileSet_520
+  - first:
+      213: -5056056949587666292
+    second: GussTileSet_521
+  - first:
+      213: 4823574513947237490
+    second: GussTileSet_522
+  - first:
+      213: 4705475056520689230
+    second: GussTileSet_523
+  - first:
+      213: -4159874371086482112
+    second: GussTileSet_524
+  - first:
+      213: 7719785700417869763
+    second: GussTileSet_525
+  - first:
+      213: 7159967948966531310
+    second: GussTileSet_526
+  - first:
+      213: 7915687155912635543
+    second: GussTileSet_527
+  - first:
+      213: 7502566781487792075
+    second: GussTileSet_528
+  - first:
+      213: -8673979828278801038
+    second: GussTileSet_529
+  - first:
+      213: -5807763194353920891
+    second: GussTileSet_530
+  - first:
+      213: 5850081762023322978
+    second: GussTileSet_531
+  - first:
+      213: 1377161012166903798
+    second: GussTileSet_532
+  - first:
+      213: -1020423106606581326
+    second: GussTileSet_533
+  - first:
+      213: 4550652713622758047
+    second: GussTileSet_534
+  - first:
+      213: 3534770922466679897
+    second: GussTileSet_535
+  - first:
+      213: -5287872438958224022
+    second: GussTileSet_536
+  - first:
+      213: -7273487692845151807
+    second: GussTileSet_537
+  - first:
+      213: -8377990848599521603
+    second: GussTileSet_538
+  - first:
+      213: 7442192006602905155
+    second: GussTileSet_539
+  - first:
+      213: -5155036257011629930
+    second: GussTileSet_540
+  - first:
+      213: -6572710161632281836
+    second: GussTileSet_541
+  - first:
+      213: 7829409509600549851
+    second: GussTileSet_542
+  - first:
+      213: 5859548487011456606
+    second: GussTileSet_543
+  - first:
+      213: -2691558423441770194
+    second: GussTileSet_544
+  - first:
+      213: -6688106214445816730
+    second: GussTileSet_545
+  - first:
+      213: 8763855751346755844
+    second: GussTileSet_546
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GussTileSet_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf69784290db8a20800000000000000
+      internalID: 3065773298055475122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80e3051691834080800000000000000
+      internalID: -9204370731817508726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331f34905db2e8950800000000000000
+      internalID: 6453143510051975475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea45b28ed770aea0800000000000000
+      internalID: -5863554917277021459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6fe06dcec478990800000000000000
+      internalID: -7383848483963341088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a941db13a8d86f230800000000000000
+      internalID: 3672278170846696602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da430452864a17940800000000000000
+      internalID: 5292191804345562285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_14
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8da9438dcce03710800000000000000
+      internalID: 1671095829169548682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_15
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9842ca68d848c30800000000000000
+      internalID: 4360765948754692533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a6c8272fc894110800000000000000
+      internalID: 1245681744876431955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 379
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb6c226b03d7adf0800000000000000
+      internalID: -168934415157924927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0370b79ea09c7a840800000000000000
+      internalID: 5235374140545500976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a33a8b91a56170800000000000000
+      internalID: 8171114788344275547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7c952ae6d963970800000000000000
+      internalID: 8734341625827411913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_28
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b547a63ec26370a0800000000000000
+      internalID: -6885050767499639374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_29
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e9afb74d28b6f0800000000000000
+      internalID: -668734758483009342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00c2fa6a0b0b0660800000000000000
+      internalID: 7352982955984338955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_38
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6999390191add50800000000000000
+      internalID: 6762745349436708584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c70e998fb096930800000000000000
+      internalID: 4136850895077932138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64844b0e2abbbe2a0800000000000000
+      internalID: -6707060911809214394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_41
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af82a3ebf20b0ba50800000000000000
+      internalID: 6534916778416023802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_42
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 362
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c465514983f6a0800000000000000
+      internalID: -6416634130374276689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1740b1a306206d40800000000000000
+      internalID: 5575498135724115739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_51
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff9bd0859901a0d0800000000000000
+      internalID: -3413436504853471242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03ab932edae41760800000000000000
+      internalID: 7427819925241832206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_53
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de109913be09bcc0800000000000000
+      internalID: -3694905856889970991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_54
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb91956ed4643d0800000000000000
+      internalID: -3222802831604335019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_55
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eecca5db235421d0800000000000000
+      internalID: -3376482372887458071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_63
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ff7152979df7c20800000000000000
+      internalID: 3206520574047682444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_64
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448b3b48b09e4da90800000000000000
+      internalID: -7289945661125707708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_65
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4141c3eee585b52a0800000000000000
+      internalID: -6747702451937471468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_66
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 345
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0389275d3a496e620800000000000000
+      internalID: 2803091249466349616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_67
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 345
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 4, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea148692ad912d750800000000000000
+      internalID: 6328148851197231534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_80
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1467b16b778095d0800000000000000
+      internalID: -3057795182994430945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_81
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ec30c71388e650800000000000000
+      internalID: 6262399419891377685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d856b5520097780800000000000000
+      internalID: -8684910245960119030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_83
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb423ca4da2752ea0800000000000000
+      internalID: -5898182048362584897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_84
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507d20c3c62f1210800000000000000
+      internalID: 1305805039145414740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_92
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ec3922341215cc0800000000000000
+      internalID: -3724158844632052087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_93
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5812e6128cef170800000000000000
+      internalID: 8214222816277530057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6eb9a6e56ea8430800000000000000
+      internalID: 3786091729948239523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_95
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b284ff02cad66fee0800000000000000
+      internalID: -1227673262356477909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_96
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1274881a63d9d50800000000000000
+      internalID: 6745607884274868655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_111
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ae6890da0ce3570800000000000000
+      internalID: 8448401800415341128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_112
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1a6266c449e96a0800000000000000
+      internalID: -6440547361240997383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_113
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d651aca99489f39a0800000000000000
+      internalID: -6251110315869989523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_121
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150f9be0abc8073d0800000000000000
+      internalID: -3210911803576291247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_122
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacaa3b0677b96cb0800000000000000
+      internalID: -4870159804402062162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_123
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 311
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebdd27e5d25f7f00800000000000000
+      internalID: 1116702311271226345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_124
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74391bf50750b350800000000000000
+      internalID: 6030415584248280191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_125
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 311
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55ab63c45cb448b0800000000000000
+      internalID: -5168799400072600225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_150
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1037187d3a2fb00800000000000000
+      internalID: 860930624766280147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_151
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eaafe585c22ad90800000000000000
+      internalID: -7088054105465508331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_152
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf986e9991503480800000000000000
+      internalID: -8921541141591449679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_153
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea7a7b697117de0800000000000000
+      internalID: -1337261678258573818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_154
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f699653de40edc0800000000000000
+      internalID: -3611800231553175743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_155
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d2c498836682450800000000000000
+      internalID: 6064209291262045487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_156
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a48419e53b2fcf0800000000000000
+      internalID: -219916213042001344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_157
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a36b83e479612d0800000000000000
+      internalID: -3308290514042340812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_158
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe165244e9300660800000000000000
+      internalID: 7349938244396916467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_182
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 277
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9525e515ce6045fb0800000000000000
+      internalID: -4660092102374436263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_183
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d4f47476dae8fd0800000000000000
+      internalID: -2337740497469092534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_184
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2c310bae40eb100800000000000000
+      internalID: 125543245635895973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_185
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a90172189abf10800000000000000
+      internalID: 2286306965817238946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_186
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc0d65a34e1ef700800000000000000
+      internalID: 575931078237031675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_187
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2733edda74e8660d0800000000000000
+      internalID: -3429897627685211278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_188
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f45cdf394946990800000000000000
+      internalID: -7393621324896841857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_189
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812cf67fb876e6a80800000000000000
+      internalID: -8471719998187912680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_190
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b7b085c01c0c50800000000000000
+      internalID: 6632694791664022653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_213
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62b5e8fba5447b60800000000000000
+      internalID: 7742890264274252397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_214
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ead9a3a5cce02f0800000000000000
+      internalID: -1004640978954506710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_215
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb926e0066d169da0800000000000000
+      internalID: -5938526734702466628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_216
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aa6f8af9d63c000800000000000000
+      internalID: 55008152960543383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_217
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b03328e85789200800000000000000
+      internalID: 187028639466064735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_218
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddeb8e8ea0152b90800000000000000
+      internalID: -7267384081790538282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_219
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102094921cc1cb4b0800000000000000
+      internalID: -5423428235314003455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_220
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0325be287f4a2800800000000000000
+      internalID: 588370078923563789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_243
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0d98f0cf8daa7b0800000000000000
+      internalID: -5212115041623879475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_244
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e621b99b5fc2100800000000000000
+      internalID: 84712670532628081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_245
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a5c5e335c0d4a0800000000000000
+      internalID: -6570535029644613918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_246
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d70a7bcee8947e0800000000000000
+      internalID: -1780735030304146105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_247
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01e178cb36762f30800000000000000
+      internalID: 4550454472642519310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_248
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a233310dcf39b8c90800000000000000
+      internalID: -7166471667998051542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_249
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f8b720f3e8baa20800000000000000
+      internalID: 3074707571886231429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_250
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f37d8e547b0ad2e0800000000000000
+      internalID: -2100353681784474634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_251
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7552402d706e920800000000000000
+      internalID: 3019109198792579041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_268
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf729a96545ac6f0800000000000000
+      internalID: -663625264146513979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_269
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4c61e8eb22e7a0800000000000000
+      internalID: -6349464245424599516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_270
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e212482d5787d6360800000000000000
+      internalID: 7164515029654708526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_271
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb815696221b9db0800000000000000
+      internalID: -4784210222211036180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_272
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09084955adbbe380800000000000000
+      internalID: -8940844117348841203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_273
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115df7e42cc126d0800000000000000
+      internalID: -3016905816478494436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_274
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f863ab3be0481a90800000000000000
+      internalID: -7343047813365536521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_275
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092838dca4d9e2c20800000000000000
+      internalID: 3183654931198608016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_276
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34c2318ba84f4af0800000000000000
+      internalID: -410029139623230403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_277
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 226
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0ee859a9cedf4c0800000000000000
+      internalID: -4251982324489592644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_292
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47244a81357a0740800000000000000
+      internalID: 5119032782093559627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_293
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f8f2b981ce26960800000000000000
+      internalID: 7593891512127033176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_294
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037f6bfc681a66f0800000000000000
+      internalID: -690712736494030069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_295
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9763fa2eff92ebfc0800000000000000
+      internalID: -3477295683286911367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_296
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4fa753f245c3310800000000000000
+      internalID: 1386075347060716784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_297
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddd4d1b5c519ffc0800000000000000
+      internalID: -3460710899821257260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_298
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b677e68f74b1f80800000000000000
+      internalID: -8134829169583887616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_299
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99b813b25fa8d70800000000000000
+      internalID: 9046312367390693834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_300
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7171b519e85efa0800000000000000
+      internalID: -5772050592455780390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_309
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073daaa28021a0200800000000000000
+      internalID: 146949764127839088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_310
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b7940bcc1020230800000000000000
+      internalID: 3603444630492380021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_311
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d177f724d4def92b0800000000000000
+      internalID: -5575476897577470179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_312
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608a06c1d8852faa0800000000000000
+      internalID: -6128738779808094202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_313
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fcc7c674e7a6510800000000000000
+      internalID: 1543184667555712823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_314
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d5b202de796f990800000000000000
+      internalID: -7352522296932999907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_316
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fbb0c1d18856850800000000000000
+      internalID: 6369646906591395666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_317
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f5ef221cfaa5e0800000000000000
+      internalID: -1897427137940032331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_318
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f02bffc881419960800000000000000
+      internalID: 7606933301466177780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_323
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99bc1534732d48e0800000000000000
+      internalID: -1707669701689296484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_324
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666fef61ad0f4a3b0800000000000000
+      internalID: -5502008025260558746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_325
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f848d266e833b6b0800000000000000
+      internalID: -5281815375823484681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_326
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2d70534883041c0800000000000000
+      internalID: -4521551885403434285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_327
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b18155cffd578f0800000000000000
+      internalID: -543281905175880874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_328
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa0e8a9706816e30800000000000000
+      internalID: 4495021270308358818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_333
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2162c5b2d1d858bd0800000000000000
+      internalID: -2628539651079789038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_334
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a184f2358e28a00800000000000000
+      internalID: 757423131324848716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_335
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99478efb98e9a2210800000000000000
+      internalID: 1309032956171941017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_336
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c56f801bc50aab0800000000000000
+      internalID: -4998893670951920528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_337
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f973ffb6bd4f4330800000000000000
+      internalID: 3697259266394257911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_338
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d7d1d3ee1957d30800000000000000
+      internalID: 4428606261002337665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_340
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4ba4ecb619e4080800000000000000
+      internalID: -9201257096462814012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_341
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3fdb0e297f589e0800000000000000
+      internalID: -1619616280761994244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_342
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2848ae250836de0c0800000000000000
+      internalID: -4544867046148897662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_343
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa3ea9d650b91340800000000000000
+      internalID: 4835089562024688299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_348
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58c5bd84eb097b80800000000000000
+      internalID: -8396666953997629347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_349
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766ab5a86b8a969b0800000000000000
+      internalID: -5086348802179488153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_350
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429168e271d619c30800000000000000
+      internalID: 4364389460230936868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_351
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0915206a35b981a0800000000000000
+      internalID: -6806710099468019442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_352
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4be6d70239b9dca0800000000000000
+      internalID: -5991554204708705461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_353
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d61d851c4d127c0800000000000000
+      internalID: -4097760259046544100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_354
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd7e39eff35a9a0800000000000000
+      internalID: -6222496947506782893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_359
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ad127fa3bcdff0800000000000000
+      internalID: -9935533046390165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_360
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eb91555d30a2d90800000000000000
+      internalID: -7121875645942350258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_361
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceefcec2c202f8a0800000000000000
+      internalID: -6272948295257035072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_362
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f947ba234b1089660800000000000000
+      internalID: 7392660661784507551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_363
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acbd6c325bdeb200800000000000000
+      internalID: 197836579898506407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_364
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1c334c59533a720800000000000000
+      internalID: 2856185506041151971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_366
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa74ba5a27c178110800000000000000
+      internalID: 1263009499232028591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_367
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e41ccd499e394830800000000000000
+      internalID: 4055841767579981026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_368
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce71e390f4d939490800000000000000
+      internalID: -7740670371736709140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_369
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707cc203228efe0c0800000000000000
+      internalID: -4544158265458768121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_374
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f74144554850e00800000000000000
+      internalID: 1010359193163824927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_375
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c3d547dfd56ed0800000000000000
+      internalID: -2421283108959304786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_376
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca55e05e4e680ac0800000000000000
+      internalID: -3888736995590710583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_377
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f668a830159887380800000000000000
+      internalID: -8973271276490946961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_378
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58296f03af250d0800000000000000
+      internalID: -3435408477528095285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_379
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bdec0251484e340800000000000000
+      internalID: 4892180321510808467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_380
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98abeb5c6cf4a60b0800000000000000
+      internalID: -5734683460363175287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_385
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88540d9bd5024f0f0800000000000000
+      internalID: -1084206023367965304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_386
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19849674b0d16c300800000000000000
+      internalID: 271936761782421649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_387
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daef26c3741aa20d0800000000000000
+      internalID: -3446765237470822739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_388
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9070482c94911a0800000000000000
+      internalID: -6838353459397850701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_389
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cd25294514b0ff0800000000000000
+      internalID: -68889537806148449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_390
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32529f508425502a0800000000000000
+      internalID: -6771915995390335709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_392
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7775d61fb8a657240800000000000000
+      internalID: 4788850928061863799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_393
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02d3c8ef8941c010800000000000000
+      internalID: 1207327057546301962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_394
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8cb3f1d7d4cebb0800000000000000
+      internalID: -4905460694323050309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_395
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256af44c4a5492360800000000000000
+      internalID: 7145318857770509906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_396
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23505e1fc211b9a00800000000000000
+      internalID: 764223446503982386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_397
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34412aab061ddec40800000000000000
+      internalID: 5543316929741198403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_406
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa89f075c91b5570800000000000000
+      internalID: 8456381061112892064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_407
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ea2da7ad5da2d0800000000000000
+      internalID: -3265851180027549973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_408
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4de3de1bd78010800000000000000
+      internalID: 1191161551913831972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_415
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 124
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7f208ab7756fb0800000000000000
+      internalID: -4655182996919322038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_416
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ebfc1ef93a3870800000000000000
+      internalID: 8663300596771317239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_417
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356c288306dba9a20800000000000000
+      internalID: 3069974316969018963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_418
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45a1cca06ad08d30800000000000000
+      internalID: 4431782142082655564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_419
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 124
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b311daa6c064e40800000000000000
+      internalID: 5640209235637779200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_421
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79949f78378443a80800000000000000
+      internalID: -8488079736646841961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_422
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aeda6322b2cc5e0800000000000000
+      internalID: -1888086717828830614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_423
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2844269f6d4c2820800000000000000
+      internalID: 2894773802148055084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_424
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443510f9a8b290c00800000000000000
+      internalID: 867272277618676548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_425
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b017dbfc0606d65c0800000000000000
+      internalID: -4220611306857860853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_426
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27776a6399ea14370800000000000000
+      internalID: 8305111160918013810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_439
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 107
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bd4419525dd4df0800000000000000
+      internalID: -194264851579348197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_440
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de9508f5ff384660800000000000000
+      internalID: 7370211115852472021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_441
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 107
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7818b53ffe6ed2620800000000000000
+      internalID: 2751108865647673735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_443
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2027b6af83ef2f890800000000000000
+      internalID: -7425593314907557374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_444
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a941a1fa983cde0800000000000000
+      internalID: -1314055281112212867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_446
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aa2930089957000800000000000000
+      internalID: 33101347369953894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_447
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be474d598c95f160800000000000000
+      internalID: 7058720104762527415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_449
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac887600ed9df130800000000000000
+      internalID: 3602208862473063596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_451
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8859b6907f1a246d0800000000000000
+      internalID: -3007663518743030392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_452
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477eb54892ceded0800000000000000
+      internalID: -2387256793198856375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_454
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 73
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8334257b773ddc330800000000000000
+      internalID: 3732872177290199864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_455
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af24e1a48b821e3f0800000000000000
+      internalID: -873372080750574854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_519
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31069404a630fe0800000000000000
+      internalID: -1224017849373158485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_520
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695a17b2fb7faa570800000000000000
+      internalID: 8478861648918062486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_521
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a9ea31ef645d9b0800000000000000
+      internalID: -5056056949587666292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_522
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd37bc677c0f240800000000000000
+      internalID: 4823574513947237490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_523
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46706b12a43d4140800000000000000
+      internalID: 4705475056520689230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_524
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0458329ac482546c0800000000000000
+      internalID: -4159874371086482112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_525
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c71c8f7130322b60800000000000000
+      internalID: 7719785700417869763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_526
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee015591ae05d5360800000000000000
+      internalID: 7159967948966531310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_527
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 23
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7947b49778b2add60800000000000000
+      internalID: 7915687155912635543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_528
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 23
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfb93accb87e1860800000000000000
+      internalID: 7502566781487792075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_529
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 24
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc98a8d45df9780800000000000000
+      internalID: -8673979828278801038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_530
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 24
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58452f4452ea66fa0800000000000000
+      internalID: -5807763194353920891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_531
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 24
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26534641e5aaf2150800000000000000
+      internalID: 5850081762023322978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_532
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 24
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7c9b0e4a8ac1310800000000000000
+      internalID: 1377161012166903798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_533
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b93d1a479ab6d1f0800000000000000
+      internalID: -1020423106606581326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_534
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92e6ab588a272f30800000000000000
+      internalID: 4550652713622758047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_535
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c910c0d670e0130800000000000000
+      internalID: 3534770922466679897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_536
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d015a7804bd96b0800000000000000
+      internalID: -5287872438958224022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_537
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c90acdda716f0b90800000000000000
+      internalID: -7273487692845151807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_538
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db680c136b56bbb80800000000000000
+      internalID: -8377990848599521603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_539
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34651d7133af74760800000000000000
+      internalID: 7442192006602905155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_540
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690009836d1a578b0800000000000000
+      internalID: -5155036257011629930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_541
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bbe448eea09c4a0800000000000000
+      internalID: -6572710161632281836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_542
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb5ecc8776a7ac60800000000000000
+      internalID: 7829409509600549851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_543
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56de70cd4c415150800000000000000
+      internalID: 5859548487011456606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_544
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29fa86dfd9a5aad0800000000000000
+      internalID: -2691558423441770194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_545
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664efd345d21f23a0800000000000000
+      internalID: -6688106214445816730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GussTileSet_546
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40999c97f587f9970800000000000000
+      internalID: 8763855751346755844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GussTileSet_0: 3065773298055475122
+      GussTileSet_1: -9204370731817508726
+      GussTileSet_111: 8448401800415341128
+      GussTileSet_112: -6440547361240997383
+      GussTileSet_113: -6251110315869989523
+      GussTileSet_121: -3210911803576291247
+      GussTileSet_122: -4870159804402062162
+      GussTileSet_123: 1116702311271226345
+      GussTileSet_124: 6030415584248280191
+      GussTileSet_125: -5168799400072600225
+      GussTileSet_13: 5292191804345562285
+      GussTileSet_14: 1671095829169548682
+      GussTileSet_15: 4360765948754692533
+      GussTileSet_150: 860930624766280147
+      GussTileSet_151: -7088054105465508331
+      GussTileSet_152: -8921541141591449679
+      GussTileSet_153: -1337261678258573818
+      GussTileSet_154: -3611800231553175743
+      GussTileSet_155: 6064209291262045487
+      GussTileSet_156: -219916213042001344
+      GussTileSet_157: -3308290514042340812
+      GussTileSet_158: 7349938244396916467
+      GussTileSet_16: 1245681744876431955
+      GussTileSet_17: -168934415157924927
+      GussTileSet_182: -4660092102374436263
+      GussTileSet_183: -2337740497469092534
+      GussTileSet_184: 125543245635895973
+      GussTileSet_185: 2286306965817238946
+      GussTileSet_186: 575931078237031675
+      GussTileSet_187: -3429897627685211278
+      GussTileSet_188: -7393621324896841857
+      GussTileSet_189: -8471719998187912680
+      GussTileSet_190: 6632694791664022653
+      GussTileSet_2: 6453143510051975475
+      GussTileSet_213: 7742890264274252397
+      GussTileSet_214: -1004640978954506710
+      GussTileSet_215: -5938526734702466628
+      GussTileSet_216: 55008152960543383
+      GussTileSet_217: 187028639466064735
+      GussTileSet_218: -7267384081790538282
+      GussTileSet_219: -5423428235314003455
+      GussTileSet_220: 588370078923563789
+      GussTileSet_243: -5212115041623879475
+      GussTileSet_244: 84712670532628081
+      GussTileSet_245: -6570535029644613918
+      GussTileSet_246: -1780735030304146105
+      GussTileSet_247: 4550454472642519310
+      GussTileSet_248: -7166471667998051542
+      GussTileSet_249: 3074707571886231429
+      GussTileSet_25: 5235374140545500976
+      GussTileSet_250: -2100353681784474634
+      GussTileSet_251: 3019109198792579041
+      GussTileSet_26: 8171114788344275547
+      GussTileSet_268: -663625264146513979
+      GussTileSet_269: -6349464245424599516
+      GussTileSet_27: 8734341625827411913
+      GussTileSet_270: 7164515029654708526
+      GussTileSet_271: -4784210222211036180
+      GussTileSet_272: -8940844117348841203
+      GussTileSet_273: -3016905816478494436
+      GussTileSet_274: -7343047813365536521
+      GussTileSet_275: 3183654931198608016
+      GussTileSet_276: -410029139623230403
+      GussTileSet_277: -4251982324489592644
+      GussTileSet_28: -6885050767499639374
+      GussTileSet_29: -668734758483009342
+      GussTileSet_292: 5119032782093559627
+      GussTileSet_293: 7593891512127033176
+      GussTileSet_294: -690712736494030069
+      GussTileSet_295: -3477295683286911367
+      GussTileSet_296: 1386075347060716784
+      GussTileSet_297: -3460710899821257260
+      GussTileSet_298: -8134829169583887616
+      GussTileSet_299: 9046312367390693834
+      GussTileSet_3: -5863554917277021459
+      GussTileSet_30: 7352982955984338955
+      GussTileSet_300: -5772050592455780390
+      GussTileSet_309: 146949764127839088
+      GussTileSet_310: 3603444630492380021
+      GussTileSet_311: -5575476897577470179
+      GussTileSet_312: -6128738779808094202
+      GussTileSet_313: 1543184667555712823
+      GussTileSet_314: -7352522296932999907
+      GussTileSet_316: 6369646906591395666
+      GussTileSet_317: -1897427137940032331
+      GussTileSet_318: 7606933301466177780
+      GussTileSet_323: -1707669701689296484
+      GussTileSet_324: -5502008025260558746
+      GussTileSet_325: -5281815375823484681
+      GussTileSet_326: -4521551885403434285
+      GussTileSet_327: -543281905175880874
+      GussTileSet_328: 4495021270308358818
+      GussTileSet_333: -2628539651079789038
+      GussTileSet_334: 757423131324848716
+      GussTileSet_335: 1309032956171941017
+      GussTileSet_336: -4998893670951920528
+      GussTileSet_337: 3697259266394257911
+      GussTileSet_338: 4428606261002337665
+      GussTileSet_340: -9201257096462814012
+      GussTileSet_341: -1619616280761994244
+      GussTileSet_342: -4544867046148897662
+      GussTileSet_343: 4835089562024688299
+      GussTileSet_348: -8396666953997629347
+      GussTileSet_349: -5086348802179488153
+      GussTileSet_350: 4364389460230936868
+      GussTileSet_351: -6806710099468019442
+      GussTileSet_352: -5991554204708705461
+      GussTileSet_353: -4097760259046544100
+      GussTileSet_354: -6222496947506782893
+      GussTileSet_359: -9935533046390165
+      GussTileSet_360: -7121875645942350258
+      GussTileSet_361: -6272948295257035072
+      GussTileSet_362: 7392660661784507551
+      GussTileSet_363: 197836579898506407
+      GussTileSet_364: 2856185506041151971
+      GussTileSet_366: 1263009499232028591
+      GussTileSet_367: 4055841767579981026
+      GussTileSet_368: -7740670371736709140
+      GussTileSet_369: -4544158265458768121
+      GussTileSet_374: 1010359193163824927
+      GussTileSet_375: -2421283108959304786
+      GussTileSet_376: -3888736995590710583
+      GussTileSet_377: -8973271276490946961
+      GussTileSet_378: -3435408477528095285
+      GussTileSet_379: 4892180321510808467
+      GussTileSet_38: 6762745349436708584
+      GussTileSet_380: -5734683460363175287
+      GussTileSet_385: -1084206023367965304
+      GussTileSet_386: 271936761782421649
+      GussTileSet_387: -3446765237470822739
+      GussTileSet_388: -6838353459397850701
+      GussTileSet_389: -68889537806148449
+      GussTileSet_39: 4136850895077932138
+      GussTileSet_390: -6771915995390335709
+      GussTileSet_392: 4788850928061863799
+      GussTileSet_393: 1207327057546301962
+      GussTileSet_394: -4905460694323050309
+      GussTileSet_395: 7145318857770509906
+      GussTileSet_396: 764223446503982386
+      GussTileSet_397: 5543316929741198403
+      GussTileSet_4: -7383848483963341088
+      GussTileSet_40: -6707060911809214394
+      GussTileSet_406: 8456381061112892064
+      GussTileSet_407: -3265851180027549973
+      GussTileSet_408: 1191161551913831972
+      GussTileSet_41: 6534916778416023802
+      GussTileSet_415: -4655182996919322038
+      GussTileSet_416: 8663300596771317239
+      GussTileSet_417: 3069974316969018963
+      GussTileSet_418: 4431782142082655564
+      GussTileSet_419: 5640209235637779200
+      GussTileSet_42: -6416634130374276689
+      GussTileSet_421: -8488079736646841961
+      GussTileSet_422: -1888086717828830614
+      GussTileSet_423: 2894773802148055084
+      GussTileSet_424: 867272277618676548
+      GussTileSet_425: -4220611306857860853
+      GussTileSet_426: 8305111160918013810
+      GussTileSet_439: -194264851579348197
+      GussTileSet_440: 7370211115852472021
+      GussTileSet_441: 2751108865647673735
+      GussTileSet_443: -7425593314907557374
+      GussTileSet_444: -1314055281112212867
+      GussTileSet_446: 33101347369953894
+      GussTileSet_447: 7058720104762527415
+      GussTileSet_449: 3602208862473063596
+      GussTileSet_451: -3007663518743030392
+      GussTileSet_452: -2387256793198856375
+      GussTileSet_454: 3732872177290199864
+      GussTileSet_455: -873372080750574854
+      GussTileSet_5: 3672278170846696602
+      GussTileSet_50: 5575498135724115739
+      GussTileSet_51: -3413436504853471242
+      GussTileSet_519: -1224017849373158485
+      GussTileSet_52: 7427819925241832206
+      GussTileSet_520: 8478861648918062486
+      GussTileSet_521: -5056056949587666292
+      GussTileSet_522: 4823574513947237490
+      GussTileSet_523: 4705475056520689230
+      GussTileSet_524: -4159874371086482112
+      GussTileSet_525: 7719785700417869763
+      GussTileSet_526: 7159967948966531310
+      GussTileSet_527: 7915687155912635543
+      GussTileSet_528: 7502566781487792075
+      GussTileSet_529: -8673979828278801038
+      GussTileSet_53: -3694905856889970991
+      GussTileSet_530: -5807763194353920891
+      GussTileSet_531: 5850081762023322978
+      GussTileSet_532: 1377161012166903798
+      GussTileSet_533: -1020423106606581326
+      GussTileSet_534: 4550652713622758047
+      GussTileSet_535: 3534770922466679897
+      GussTileSet_536: -5287872438958224022
+      GussTileSet_537: -7273487692845151807
+      GussTileSet_538: -8377990848599521603
+      GussTileSet_539: 7442192006602905155
+      GussTileSet_54: -3222802831604335019
+      GussTileSet_540: -5155036257011629930
+      GussTileSet_541: -6572710161632281836
+      GussTileSet_542: 7829409509600549851
+      GussTileSet_543: 5859548487011456606
+      GussTileSet_544: -2691558423441770194
+      GussTileSet_545: -6688106214445816730
+      GussTileSet_546: 8763855751346755844
+      GussTileSet_55: -3376482372887458071
+      GussTileSet_63: 3206520574047682444
+      GussTileSet_64: -7289945661125707708
+      GussTileSet_65: -6747702451937471468
+      GussTileSet_66: 2803091249466349616
+      GussTileSet_67: 6328148851197231534
+      GussTileSet_80: -3057795182994430945
+      GussTileSet_81: 6262399419891377685
+      GussTileSet_82: -8684910245960119030
+      GussTileSet_83: -5898182048362584897
+      GussTileSet_84: 1305805039145414740
+      GussTileSet_92: -3724158844632052087
+      GussTileSet_93: 8214222816277530057
+      GussTileSet_94: 3786091729948239523
+      GussTileSet_95: -1227673262356477909
+      GussTileSet_96: 6745607884274868655
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

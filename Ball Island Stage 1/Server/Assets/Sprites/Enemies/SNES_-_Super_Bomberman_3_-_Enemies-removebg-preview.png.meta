@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 6e0564319586ee54d9d52472966ba01b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8150705688372093247
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_0
+  - first:
+      213: 1869014170619571216
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_2
+  - first:
+      213: -7399467634291681213
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_4
+  - first:
+      213: -1900748258563564039
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_6
+  - first:
+      213: 751452647002608126
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_3
+  - first:
+      213: -3635980687805772708
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_5
+  - first:
+      213: 3621519033750266465
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_1
+  - first:
+      213: -1046360916707814167
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_7
+  - first:
+      213: -8407152310205520030
+    second: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_8
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5134287, y: 0.0889349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ac28a3af1d1170800000000000000
+      internalID: 8150705688372093247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 20
+        height: 17
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.079762906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c63f75c7210f910800000000000000
+      internalID: 1869014170619571216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.47813067, y: 0.15008835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3485b03046fcf4990800000000000000
+      internalID: -7399467634291681213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 37
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5275831, y: 0.17398272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd50e8878f2f95e0800000000000000
+      internalID: -1900748258563564039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3
+        width: 30
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14917707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef11e1a7332bd6a00800000000000000
+      internalID: 751452647002608126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.48453683, y: 0.14434487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c082524d66a8dc0800000000000000
+      internalID: -3635980687805772708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0889349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1622002af58324230800000000000000
+      internalID: 3621519033750266465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 32
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5079732, y: 0.18107006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e457c44a449a71f0800000000000000
+      internalID: -1046360916707814167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1
+        width: 33
+        height: 36
+      alignment: 9
+      pivot: {x: 0.48453683, y: 0.1881574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2676891548bc35b80800000000000000
+      internalID: -8407152310205520030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_0: 8150705688372093247
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_1: 3621519033750266465
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_2: 1869014170619571216
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_3: 751452647002608126
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_4: -7399467634291681213
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_5: -3635980687805772708
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_6: -1900748258563564039
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_7: -1046360916707814167
+      SNES_-_Super_Bomberman_3_-_Enemies-removebg-preview_8: -8407152310205520030
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

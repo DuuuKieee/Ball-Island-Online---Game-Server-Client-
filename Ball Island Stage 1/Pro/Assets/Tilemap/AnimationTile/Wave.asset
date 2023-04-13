@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -6146795774391780013, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: -7839720929918244483, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 4714704212175276873, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 228621964648864360, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 5699045257292805443, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: -9214783355573753972, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 7201960969441130307, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: -9214783355573753972, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 5699045257292805443, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 228621964648864360, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: 4714704212175276873, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: -7839720929918244483, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  - {fileID: -6146795774391780013, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
