@@ -240,10 +240,13 @@ public class Client
     /// <summary>Disconnects the client and stops all network traffic.</summary>
     private void Disconnect()
     {
-        Debug.Log($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
+         Debug.Log($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
 
-        UnityEngine.Object.Destroy(player.gameObject);
-        player = null;
+        ThreadManager.ExecuteOnMainThread(() =>
+        {
+            UnityEngine.Object.Destroy(player.gameObject);
+            player = null;
+        });
 
         tcp.Disconnect();
         udp.Disconnect();

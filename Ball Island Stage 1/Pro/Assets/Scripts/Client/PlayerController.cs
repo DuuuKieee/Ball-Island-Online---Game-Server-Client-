@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     Animator animSprite, anim;
     Rigidbody2D rb;
     float xdir, ydir;
-    float dashRecoil = 0;
+    float dashRecoil;
     [SerializeField] float timeDashing;
     public ParticleSystem obtainEff, dushEffect;
     void Start()
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        dashRecoil += Time.deltaTime;
 
         SendInputToServer();
 
@@ -30,7 +31,7 @@ public class PlayerController : MonoBehaviour
         if (xdir != 0 || ydir != 0) isPressMoveKey = true;
         else isPressMoveKey = false;
         if (isCanConotrol && isDrown == false) Walking();
-        if (Input.GetKeyDown(KeyCode.Space) && isDashing == false /*&& isCanConotrol*/ && isPressMoveKey && dashRecoil >= 1.5 && isDrown == false)
+        if (Input.GetKeyDown(KeyCode.Space) && isDashing == false /*&& isCanConotrol*/ && isPressMoveKey && dashRecoil >= 1 && isDrown == false)
         {
 
             isDashing = true;
@@ -83,6 +84,45 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(sec);
         }
     }
+     Vector3 enterWaterPos;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Water")
+        {
+          
+            //transform.Translate(new Vector2(-collision.contacts[0].normal.x*1.2f, -collision.contacts[0].normal.y*1.2f));
+            isDrown = true;
+            anim.Play("Drown");
+            animSprite.speed = 1;
+            animSprite.Play("Drown");
+            StartCoroutine(LenBo(1));
+
+        }
+
+        isDashing = false;
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Water")
+        {   isDrown = true; 
+            anim.Play("Drown");
+            animSprite.speed = 1;
+            animSprite.Play("Drown");
+            StartCoroutine(LenBo(1));
+        }
+    }
+    IEnumerator LenBo(float sec)
+    {
+        yield return new WaitForSeconds(sec);
+        isDrown = false;
+        isCanConotrol = true;
+
+        //Mot cai giong ham Hurt() danh rieng cho viec roi xuong nuoc
+    }
+
+
 
     /// <summary>Sends player input to the server.</summary>
     private void SendInputToServer()
@@ -93,7 +133,7 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.S),
             Input.GetKey(KeyCode.A),
             Input.GetKey(KeyCode.D),
-            Input.GetKey(KeyCode.Space),
+            Input.GetKeyDown(KeyCode.Space),
         };
 
         ClientSend.PlayerMovement(_inputs);

@@ -17,7 +17,7 @@ public class Ball: MonoBehaviour
     Rigidbody2D rb;
 
     float xdir, ydir, xdirRaw, ydirRaw, xdirRawDash, ydirRawDash; //2 bien cuoi: bien luu tru gia tri cuar Input.getAxitRaw khi bat dau Dash
-    public bool isPressMoveKey, isDashing, isCanConotrol, isJumping, isHurting, isCanBeHurted, isConfuse, isDrown, isDie, isGoal;
+    public bool isPressMoveKey, isDashing, isCanConotrol, isJumping, isHurting, isCanBeHurted, isConfuse, isDrown = false, isDie, isGoal;
     public float dashRecoil;
 
 

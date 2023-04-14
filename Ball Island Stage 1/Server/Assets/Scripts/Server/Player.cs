@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,17 +7,18 @@ public class Player : MonoBehaviour
     public int id;
     public string username;
 
-      public float dashRecoil;
-      public bool isDashing;
-      [SerializeField] float timeDashing;
+    public bool isPressMoveKey, isDashing, isCanConotrol;
+    [SerializeField] float timeDashing, dashRecoil;
       public ParticleSystem obtainEff, dushEffect;
 
-    private float moveSpeed = 500f / Constants.TICKS_PER_SEC;
+    private float moveSpeed = 500f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
     private bool[] inputs;
+    public bool isDrown;
     public Rigidbody2D rb;
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        isCanConotrol = true;
 
     }
 
@@ -51,23 +52,111 @@ public class Player : MonoBehaviour
         {
             _inputDirection.x += 1;
         }
-        if (inputs[4])
-        {
-            isDashing = true;
-        }
-        dashRecoil +=  Time.deltaTime;
 
-        Move(_inputDirection, isDashing);
+        Move(_inputDirection);
     }
+     Vector3 enterWaterPos;
+
 
     /// <summary>Calculates the player's desired movement direction and moves him.</summary>
     /// <param name="_inputDirection"></param>
-    private void Move(Vector2 _inputDirection, bool isDashing)
+    private void Move(Vector2 _inputDirection)
     {
+        dashRecoil += Time.deltaTime;
 
+        if (isCanConotrol && isDrown == false)
+        {
         rb.AddForce(new Vector2(_inputDirection.x * moveSpeed, _inputDirection.y * moveSpeed));
-       
         }
+        if (inputs[4] && dashRecoil >= 1 && isDashing == false)
+        {
+            isDashing = true;
+            StartCoroutine(StopDashing(timeDashing, _inputDirection));
+            dashRecoil = 0;
+        }
+        if (isDashing) Dash(_inputDirection);
+    
+      
+        ServerSend.PlayerPosition(this);
+        
+    }
+     void Dash(Vector2 _inputDirection)
+    {
+        isCanConotrol = false;
+        rb.velocity = new Vector2(_inputDirection.x, _inputDirection.y).normalized * dashSpeed;
+        
+    }
+
+    IEnumerator StopDashing(float sec, Vector2 _inputDirection)
+    {
+        yield return new WaitForSeconds(sec);
+
+        isCanConotrol = true;
+
+        if (isDashing)
+        {
+            rb.velocity = new Vector2(_inputDirection.x, _inputDirection.y).normalized * dashStopSpeed;
+        }
+        isDashing = false;
+
+    }
+
+     private void OnTriggerEnter2D(Collider2D collision)
+    {
+    
+       
+        if (collision.gameObject.tag == "Water")
+        {
+            enterWaterPos = transform.position - new Vector3(Mathf.Clamp(rb.velocity.x, 0, 1), Mathf.Clamp(rb.velocity.y, 0, 1), 0);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Water")
+        {
+            print("hit water");
+            Vector3 landPos = transform.position + new Vector3(collision.contacts[0].normal.x, collision.contacts[0].normal.y, 0);
+            if (collision.contacts[0].normal.x > 0.9 || collision.contacts[0].normal.x < -0.9)
+                transform.Translate(new Vector2(-collision.contacts[0].normal.x, 0));
+            if (collision.contacts[0].normal.y > 0.9)
+                transform.Translate(new Vector2(0, -collision.contacts[0].normal.y));
+            if (collision.contacts[0].normal.y < -0.9)
+                transform.Translate(new Vector2(0, -collision.contacts[0].normal.y * 0.3f));
+            //transform.Translate(new Vector2(-collision.contacts[0].normal.x*1.2f, -collision.contacts[0].normal.y*1.2f));
+
+            rb.velocity = Vector2.zero;
+            StartCoroutine(LenBo(1, landPos));
+        }
+
+        isDashing = false;
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Water")
+        {
+            print("hit water");
+            Vector3 landPos = enterWaterPos;
+
+            rb.velocity = Vector2.zero;
+            isDrown = true;
+
+            StartCoroutine(LenBo(1, landPos));
+        }
+    }
+    IEnumerator LenBo(float sec, Vector3 landPos)
+    {
+        yield return new WaitForSeconds(sec);
+        transform.position = landPos;
+        isDrown = false;
+
+
+        //Mot cai giong ham Hurt() danh rieng cho viec roi xuong nuoc
+
+        print("Player Hurt");
+    }
+    
+    
+
    
 
     /// <summary>Updates the player input with newly received input.</summary>

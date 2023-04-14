@@ -335,7 +335,7 @@ MonoBehaviour:
   isDrown: 0
   isDie: 0
   isGoal: 0
-  timeDashing: 0.3
+  timeDashing: 0.1
   obtainEff: {fileID: 6191181113307684643, guid: 18e50f2398b0e5347b7b34ca5937ee44, type: 3}
   dushEffect: {fileID: 7407370807010170673, guid: ed29e635475dda148bd7fcbd13862fd3, type: 3}
 --- !u!1 &1466943193160326573

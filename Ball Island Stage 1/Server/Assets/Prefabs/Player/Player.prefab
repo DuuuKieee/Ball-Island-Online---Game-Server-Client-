@@ -309,22 +309,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   username: 
-  ballSpriteObj: {fileID: 1466943191854738754}
-  afterImageObj: {fileID: 6972067732115043821, guid: 608acc71c3ada5c4f8257bcb1835e2c1, type: 3}
+  dashRecoil: 3
   isPressMoveKey: 0
   isDashing: 0
   isCanConotrol: 0
-  isJumping: 0
-  isHurting: 0
-  isCanBeHurted: 0
-  isConfuse: 0
-  isDrown: 0
-  isDie: 0
-  isGoal: 0
-  dashRecoil: 3
-  timeDashing: 0.25
+  timeDashing: 0.1
   obtainEff: {fileID: 6191181113307684643, guid: 18e50f2398b0e5347b7b34ca5937ee44, type: 3}
   dushEffect: {fileID: 7407370807010170673, guid: ed29e635475dda148bd7fcbd13862fd3, type: 3}
+  isDrown: 0
+  rb: {fileID: 0}
 --- !u!1 &1466943193160326573
 GameObject:
   m_ObjectHideFlags: 0
