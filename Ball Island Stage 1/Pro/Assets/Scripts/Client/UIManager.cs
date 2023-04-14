@@ -7,9 +7,8 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
-    public GameObject startMenu;
-    public GameObject GameCam1, GameCam2;
-    public InputField usernameField;
+    public GameObject startMenu, registerMenu;
+    public InputField usernameField, usernameReg, passwordField, passwordReg;
 
     private void Awake()
     {
@@ -27,9 +26,14 @@ public class UIManager : MonoBehaviour
     /// <summary>Attempts to connect to the server.</summary>
     public void ConnectToServer()
     {
-        GameCam1.SetActive(false);
         startMenu.SetActive(false);
         usernameField.interactable = false;
         Client.instance.ConnectToServer();
+    }
+    public void Register()
+    {
+        startMenu.SetActive(false);
+        registerMenu.SetActive(true);
+
     }
 }
