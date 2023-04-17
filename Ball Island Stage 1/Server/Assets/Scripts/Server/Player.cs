@@ -8,10 +8,10 @@ public class Player : MonoBehaviour
     public string username;
 
     public bool isPressMoveKey, isDashing, isCanConotrol;
-    [SerializeField] float timeDashing, dashRecoil;
+    [SerializeField] float timeDashing, dashRecoil = 4, nextDash = 0;
       public ParticleSystem obtainEff, dushEffect;
 
-    private float moveSpeed = 500f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
+    private float moveSpeed = 600f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
     private bool[] inputs;
     public bool isDrown;
     public Rigidbody2D rb;
@@ -62,44 +62,16 @@ public class Player : MonoBehaviour
     /// <param name="_inputDirection"></param>
     private void Move(Vector2 _inputDirection)
     {
-        dashRecoil += Time.deltaTime;
 
         if (isCanConotrol && isDrown == false)
         {
         rb.AddForce(new Vector2(_inputDirection.x * moveSpeed, _inputDirection.y * moveSpeed));
         }
-        if (inputs[4] && dashRecoil >= 1 && isDashing == false)
-        {
-            isDashing = true;
-            StartCoroutine(StopDashing(timeDashing, _inputDirection));
-            dashRecoil = 0;
-        }
-        if (isDashing) Dash(_inputDirection);
-    
-      
+       
         ServerSend.PlayerPosition(this);
         
     }
-     void Dash(Vector2 _inputDirection)
-    {
-        isCanConotrol = false;
-        rb.velocity = new Vector2(_inputDirection.x, _inputDirection.y).normalized * dashSpeed;
-        
-    }
 
-    IEnumerator StopDashing(float sec, Vector2 _inputDirection)
-    {
-        yield return new WaitForSeconds(sec);
-
-        isCanConotrol = true;
-
-        if (isDashing)
-        {
-            rb.velocity = new Vector2(_inputDirection.x, _inputDirection.y).normalized * dashStopSpeed;
-        }
-        isDashing = false;
-
-    }
 
      private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -109,7 +81,12 @@ public class Player : MonoBehaviour
         {
             enterWaterPos = transform.position - new Vector3(Mathf.Clamp(rb.velocity.x, 0, 1), Mathf.Clamp(rb.velocity.y, 0, 1), 0);
         }
+        if(collision.gameObject.tag == "Player")
+        {
+           
+        }
     }
+    Vector3 spawnpos = new Vector3 (0, 0, 0);
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Water")
@@ -125,7 +102,7 @@ public class Player : MonoBehaviour
             //transform.Translate(new Vector2(-collision.contacts[0].normal.x*1.2f, -collision.contacts[0].normal.y*1.2f));
 
             rb.velocity = Vector2.zero;
-            StartCoroutine(LenBo(1, landPos));
+            StartCoroutine(Respawn(5, spawnpos));
         }
 
         isDashing = false;
@@ -140,13 +117,13 @@ public class Player : MonoBehaviour
             rb.velocity = Vector2.zero;
             isDrown = true;
 
-            StartCoroutine(LenBo(1, landPos));
+            StartCoroutine(Respawn(5, spawnpos));
         }
     }
-    IEnumerator LenBo(float sec, Vector3 landPos)
+    IEnumerator Respawn(float sec, Vector3 landPos)
     {
         yield return new WaitForSeconds(sec);
-        transform.position = landPos;
+        transform.position = spawnpos;
         isDrown = false;
 
 
