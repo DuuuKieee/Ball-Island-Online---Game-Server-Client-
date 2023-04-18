@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] float timeDashing, dashRecoil = 4, nextDash = 0;
       public ParticleSystem obtainEff, dushEffect;
 
-    private float moveSpeed = 600f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
+    private float moveSpeed = 700f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
     private bool[] inputs;
     public bool isDrown;
     public Rigidbody2D rb;
