@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    
     public int id;
     public string username;
 
@@ -12,6 +13,7 @@ public class Player : MonoBehaviour
       public ParticleSystem obtainEff, dushEffect;
 
     private float moveSpeed = 700f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
+    public float bounceForce;
     private bool[] inputs;
     public bool isDrown;
     public Rigidbody2D rb;
@@ -83,8 +85,9 @@ public class Player : MonoBehaviour
         }
         if(collision.gameObject.tag == "Player")
         {
-           
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = (collision.transform.position-transform.position).normalized * bounceForce;
         }
+
     }
     Vector3 spawnpos = new Vector3 (0, 0, 0);
     private void OnCollisionEnter2D(Collision2D collision)

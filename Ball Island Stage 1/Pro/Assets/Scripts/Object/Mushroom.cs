@@ -5,6 +5,7 @@ using UnityEngine;
 public class Mushroom : MonoBehaviour
 {
     Animator anim;
+    public ParticleSystem dustEffect;
     // Start is called before the first frame update
     void Start()
     {

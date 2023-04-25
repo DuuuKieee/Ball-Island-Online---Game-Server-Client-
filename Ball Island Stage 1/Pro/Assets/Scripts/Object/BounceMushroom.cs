@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BounceMushroom : MonoBehaviour
 {
-    public float bounceForce;
 
     Animator anim;
 
@@ -24,7 +23,6 @@ public class BounceMushroom : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         anim.Play("Bounce");
-        collision.gameObject.GetComponent<Rigidbody2D>().velocity = (collision.transform.position-transform.position).normalized * bounceForce;
         Instantiate(dustEffect, collision.transform.position, Quaternion.identity);
     }
 }
