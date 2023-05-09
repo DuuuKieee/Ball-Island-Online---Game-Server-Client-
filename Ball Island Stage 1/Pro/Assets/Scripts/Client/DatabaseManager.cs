@@ -4,7 +4,10 @@ using MongoDB.Driver.Core.Authentication;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using System.Text;
 using UnityEngine;
+
 
 public class DatabaseManager : MonoBehaviour
 {
@@ -23,25 +26,34 @@ public class DatabaseManager : MonoBehaviour
     // Update is called once per frame
     public async void Register(string Username, string Password)
     {
-        string user_ = Username;
-        string pass_ = Password;
-        var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\" }}");
 
+        string user_ = Username;
+        var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
+        var user = await collection.Find(filter).FirstOrDefaultAsync();
+        if (user == null)   
+        { 
+        var salt_ = DateTime.Now.ToString();
+        string pass_ = HashPassword(Password + salt_);
+        var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\" }}");
         await collection.InsertOneAsync(document);
+        }
+        else
+        {
+            Debug.Log("da ton tai");
+        }    
     }
 
     public async void Login(string Username, string Password)
     {
         string user_ = Username;
-        string pass_ = Password;
-        // Tạo bộ lọc để tìm người dùng có tên đăng nhập tương ứng
         var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
 
         var user = await collection.Find(filter).FirstOrDefaultAsync();
+        var salt_ = user["salt"].AsString;
+        string pass_ = HashPassword(Password + salt_);
 
-    // Kiểm tra xem người dùng có tồn tại hay không
-    if (user != null)
-    {
+        if (user != null)
+        {
         // Lấy mật khẩu đã lưu trữ trong cơ sở dữ liệu
         var savedPassword = user["password"].AsString;
         // So sánh mật khẩu được cung cấp bởi người dùng với mật khẩu đã lưu trữ trong cơ sở dữ liệu
@@ -61,5 +73,16 @@ public class DatabaseManager : MonoBehaviour
         Debug.Log("User not found");
     }
 }
+    string HashPassword(string password)
+    {
+        SHA256 hash = SHA256.Create();
+
+        var passwordBytes = Encoding.UTF8.GetBytes(password);
+
+        var hashedpassword = hash.ComputeHash(passwordBytes);
+
+        return BitConverter.ToString(hashedpassword).Replace("-", "");
+    }
+
 
 }

@@ -58,5 +58,13 @@ public class UIManager : MonoBehaviour
     {
         startMenu.SetActive(true);
         registerMenu.SetActive(false);
+    }    
+    public void LoginFailed()
+    {
+        Debug.Log("Sai ten");
+    }
+    public void Registerfail()
+    {
+        Debug.Log("Sai ten");
     }
 }
