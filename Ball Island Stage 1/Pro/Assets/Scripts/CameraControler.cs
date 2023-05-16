@@ -1,23 +1,39 @@
 using UnityEngine;
+using System.Collections;
 
 public class CameraControler : MonoBehaviour
 {
-    public GameObject playerPrefab;
-    private GameObject playerInstance;
-    public float smoothTime = 0.3f;
-    private Vector3 velocity = Vector3.zero;
+
+    //offset from the viewport center to fix damping
+    public float m_DampTime = 10f;
+    public Transform m_Target;
+    public float m_XOffset = 0;
+    public float m_YOffset = 0;
+
+    private float margin = 0.1f;
 
     void Start()
     {
-        playerInstance = GameObject.FindWithTag("Player");
+
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if (playerInstance != null)
+        
+        m_Target = GameObject.FindGameObjectWithTag("Player").transform;
+        
+        if (m_Target)
         {
-            Vector3 targetPosition = playerInstance.transform.TransformPoint(new Vector3(0, 0, -10));
-            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+            float targetX = m_Target.position.x + m_XOffset;
+            float targetY = m_Target.position.y + m_YOffset;
+
+            if (Mathf.Abs(transform.position.x - targetX) > margin)
+                targetX = Mathf.Lerp(transform.position.x, targetX, 1 / m_DampTime * Time.deltaTime);
+
+            if (Mathf.Abs(transform.position.y - targetY) > margin)
+                targetY = Mathf.Lerp(transform.position.y, targetY, m_DampTime * Time.deltaTime);
+
+            transform.position = new Vector3(targetX, targetY, transform.position.z);
         }
     }
 }

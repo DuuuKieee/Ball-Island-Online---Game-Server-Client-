@@ -3,17 +3,23 @@ using MongoDB.Driver;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    public GameObject startMenu, registerMenu;
-    [SerializeField] public InputField usernameField, passwordField, userregField, passwordregField;
+    public GameObject startMenu;
+    [SerializeField] public InputField usernameField, passwordField;
+    [SerializeField] public GameObject MainCanvas,playerCamera; 
+    [SerializeField] public Text LoginFailedNoti;
+    [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
+    public bool menuAnim = false;
     private DatabaseManager databaseaccess;
+    public bool isLoginPage = true;
 
-    private void Start()
+    void Start()
     {
         databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
 
@@ -35,36 +41,39 @@ public class UIManager : MonoBehaviour
     /// <summary>Attempts to connect to the server.</summary>
     public void ConnectToServer()
     {
-        startMenu.SetActive(false);
-        usernameField.interactable = false;
-        passwordField.interactable = false;
+        playerCamera.SetActive(false);
+        MainCanvas.SetActive(false);
+
         Client.instance.ConnectToServer();
     }
-    public void Register()
+
+    public void HomepageProcess()
     {
-        databaseaccess.Register(userregField.text, passwordregField.text);
-    }
-    public void Login()
-    {
-        databaseaccess.Login(usernameField.text, passwordField.text);
+        databaseaccess.HomepageManager(usernameField.text, passwordField.text);
+
     }
 
-    public void RegMenu()
+    public void ChangeMenuStatus()
     {
-        startMenu.SetActive(false);
-        registerMenu.SetActive(true);
+        if (isLoginPage)
+        {
+            ChangeMenuStatusBtn.text = "Back to Login";
+            ActionBtn.text = "Sign Up";
+        }
+        else
+        {
+            ChangeMenuStatusBtn.text = "Create new account";
+            ActionBtn.text = "Sign In";
+        }
+        isLoginPage = !isLoginPage;
     }
-    public void LogMenu()
+  
+  
+   
+    public void DisplayNoti(string message, bool success)
     {
-        startMenu.SetActive(true);
-        registerMenu.SetActive(false);
-    }    
-    public void LoginFailed()
-    {
-        Debug.Log("Sai ten");
+        string tColor = success ? "green" : "red";
+        LoginFailedNoti.text = "<color="+tColor+">" + message + "</color>";
     }
-    public void Registerfail()
-    {
-        Debug.Log("Sai ten");
-    }
+   
 }
