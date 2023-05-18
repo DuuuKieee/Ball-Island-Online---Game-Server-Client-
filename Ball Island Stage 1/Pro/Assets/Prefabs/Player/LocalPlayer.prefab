@@ -330,12 +330,11 @@ MonoBehaviour:
   isDashing: 0
   isCanConotrol: 1
   isJumping: 0
-  isHurting: 0
   isCanBeHurted: 0
   isConfuse: 0
-  isDrown: 0
   isDie: 0
   isGoal: 0
+  isDrown: 0
   timeDashing: 0
   obtainEff: {fileID: 0}
   dushEffect: {fileID: 0}
@@ -524,7 +523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &925267187173620608
 Transform:
   m_ObjectHideFlags: 0

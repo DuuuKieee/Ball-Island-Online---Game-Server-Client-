@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
     public GameObject startMenu;
     [SerializeField] public InputField usernameField, passwordField;
-    [SerializeField] public GameObject MainCanvas,playerCamera; 
+    [SerializeField] public GameObject MainCanvas;//playerCamera; 
     [SerializeField] public Text LoginFailedNoti;
     [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
     public bool menuAnim = false;
@@ -41,7 +41,7 @@ public class UIManager : MonoBehaviour
     /// <summary>Attempts to connect to the server.</summary>
     public void ConnectToServer()
     {
-        playerCamera.SetActive(false);
+        //playerCamera.SetActive(false);
         MainCanvas.SetActive(false);
 
         Client.instance.ConnectToServer();

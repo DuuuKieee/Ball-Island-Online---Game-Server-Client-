@@ -3,37 +3,19 @@ using System.Collections;
 
 public class CameraControler : MonoBehaviour
 {
+    // camera will follow this object
+     private Vector3 offset = new Vector3(0f, 0f, -10f);
+    private float smoothTime = 0.25f;
+    private Vector3 velocity = Vector3.zero;
 
-    //offset from the viewport center to fix damping
-    public float m_DampTime = 10f;
-    public Transform m_Target;
-    public float m_XOffset = 0;
-    public float m_YOffset = 0;
+    public Transform Target;
 
-    private float margin = 0.1f;
-
-    void Start()
+    private void Update()
     {
-
-    }
-
-    void Update()
-    {
-        
-        m_Target = GameObject.FindGameObjectWithTag("Player").transform;
-        
-        if (m_Target)
-        {
-            float targetX = m_Target.position.x + m_XOffset;
-            float targetY = m_Target.position.y + m_YOffset;
-
-            if (Mathf.Abs(transform.position.x - targetX) > margin)
-                targetX = Mathf.Lerp(transform.position.x, targetX, 1 / m_DampTime * Time.deltaTime);
-
-            if (Mathf.Abs(transform.position.y - targetY) > margin)
-                targetY = Mathf.Lerp(transform.position.y, targetY, m_DampTime * Time.deltaTime);
-
-            transform.position = new Vector3(targetX, targetY, transform.position.z);
-        }
+        Target = GameObject.FindGameObjectWithTag("Player").transform;
+        Vector3 targetPosition = Target.position + offset;
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
     }
 }
+
+
