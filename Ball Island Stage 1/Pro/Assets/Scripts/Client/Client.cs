@@ -74,7 +74,6 @@ public class Client : MonoBehaviour
             socket.BeginConnect(instance.ip, instance.port, ConnectCallback, socket);
         }
 
-        /// <summary>Initializes the newly connected client's TCP-related info.</summary>
         private void ConnectCallback(IAsyncResult _result)
         {
             socket.EndConnect(_result);
@@ -91,8 +90,6 @@ public class Client : MonoBehaviour
             stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
         }
 
-        /// <summary>Sends data to the client via TCP.</summary>
-        /// <param name="_packet">The packet to send.</param>
         public void SendData(Packet _packet)
         {
             try

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] GameObject ballSpriteObj, afterImageObj;
-    public bool isPressMoveKey, isDashing, isCanConotrol = true, isJumping, isHurting, isCanBeHurted, isConfuse, isDrown, isDie, isGoal;
+    public bool isPressMoveKey, isDashing, isCanConotrol, isJumping, isCanBeHurted, isConfuse, isDie, isGoal, isDrown;
     Animator animSprite, anim;
     Rigidbody2D rb;
     float xdir, ydir;
@@ -15,25 +15,33 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
 
-        anim = gameObject.GetComponent<Animator>();
-        rb = gameObject.GetComponent<Rigidbody2D>();
+        
         
     }
     void Awake()
     {
         animSprite = ballSpriteObj.GetComponent<Animator>();
+        anim = gameObject.GetComponent<Animator>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        isCanConotrol = true;
     }
     private void FixedUpdate()
     {
-        SendInputToServer();
+        if (isDrown == false && isCanConotrol)
+        {
+            SendInputToServer();
 
         xdir = Input.GetAxis("Horizontal");
         ydir = Input.GetAxis("Vertical");
-        if(isDrown == false)
-        {
+        
         animSprite.speed = 1;
         animSprite.SetFloat("xSpeed", xdir);
         animSprite.SetFloat("ySpeed", ydir);
+        }
+        else
+        {
+            animSprite.SetFloat("xSpeed", 0);
+            animSprite.SetFloat("ySpeed", 0);
         }
 
 
@@ -55,9 +63,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Water")
         {
-          
+
             //transform.Translate(new Vector2(-collision.contacts[0].normal.x*1.2f, -collision.contacts[0].normal.y*1.2f));
-            isDrown = true;
+            animSprite.SetBool("isDrown", true);
             anim.Play("Drown");
             animSprite.speed = 1;
             animSprite.Play("Drown");
@@ -65,13 +73,15 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        isDashing = false;
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Water")
-        {   isDrown = true; 
+        {
+
+            animSprite.SetBool("isDrown", true);
             anim.Play("Drown");
             animSprite.speed = 1;
             animSprite.Play("Drown");
@@ -81,9 +91,10 @@ public class PlayerController : MonoBehaviour
     IEnumerator LenBo(float sec)
     {
         yield return new WaitForSeconds(sec);
-        isDrown = false;
+        animSprite.SetBool("isDrown", false);
+        anim.SetBool("isDrown", false);
 
-        //Mot cai giong ham Hurt() danh rieng cho viec roi xuong nuoc
+
     }
 
 

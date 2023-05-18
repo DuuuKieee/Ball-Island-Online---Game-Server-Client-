@@ -23,8 +23,6 @@ public class DatabaseManager : MonoBehaviour
         collection = database.GetCollection<BsonDocument>("UserCollection");
         UI = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
     }
-    
-
 
     // Update is called once per frame
     public async void HomepageManager(string Username, string Password)
@@ -36,15 +34,23 @@ public class DatabaseManager : MonoBehaviour
         {
             if (UI.isLoginPage == true)
             {
-                UI.DisplayNoti("Invalid Username", false);
+                UI.DisplayNoti("Invalid Username or Password.", false);
             }
             else
             {
-                var salt_ = DateTime.Now.ToString();
-                string pass_ = HashPassword(Password + salt_);
-                var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\" }}");
-                await collection.InsertOneAsync(document);
-                UI.DisplayNoti("Dang ky thanh cong !", true);
+                if (Password.Length >= 8 && Password.Length <= 15)
+                {
+                    var salt_ = DateTime.Now.ToString();
+                    string pass_ = HashPassword(Password + salt_);
+                    var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\" }}");
+                    await collection.InsertOneAsync(document);
+                    UI.DisplayNoti("Congratulations, your account has been successfully created.", true);
+                }
+                else
+                {
+                    UI.DisplayNoti("Your password must be at least 8 characters.", false);
+                } 
+                    
             }
         }
         else
@@ -61,12 +67,12 @@ public class DatabaseManager : MonoBehaviour
                 }
                 else
                 {
-                    UI.DisplayNoti("Sai username & password", false);
+                    UI.DisplayNoti("Invalid Username or Password.", false);
                 }
             }
             else
             {
-                UI.DisplayNoti("Dang ky that bai", false);
+                UI.DisplayNoti("This username is already being used.", false);
             }    
         }
     }

@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 1466943193002995010}
   - component: {fileID: 1466943193002995008}
   - component: {fileID: -6332455034529150135}
+  - component: {fileID: -5143980054093998488}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -311,6 +312,26 @@ MonoBehaviour:
   id: 0
   username: 
   USER: {fileID: 4997169382847474665}
+--- !u!114 &-5143980054093998488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466943193002995039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a68b1378b7772489b10b5cc1aabe33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballSpriteObj: {fileID: 1466943191854738754}
+  afterImageObj: {fileID: 6972067732115043821, guid: 608acc71c3ada5c4f8257bcb1835e2c1, type: 3}
+  isConfuse: 0
+  isDie: 0
+  isDrown: 0
+  timeDashing: 0
+  obtainEff: {fileID: 0}
+  dushEffect: {fileID: 0}
 --- !u!1 &1466943193160326573
 GameObject:
   m_ObjectHideFlags: 0
