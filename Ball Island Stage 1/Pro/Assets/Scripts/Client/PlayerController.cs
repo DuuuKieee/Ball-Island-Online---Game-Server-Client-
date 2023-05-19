@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] GameObject ballSpriteObj, afterImageObj;
+    public GameObject cameraController;
     public bool isPressMoveKey, isDashing, isCanConotrol, isJumping, isCanBeHurted, isConfuse, isDie, isGoal, isDrown;
     Animator animSprite, anim;
     Rigidbody2D rb;
@@ -14,8 +15,8 @@ public class PlayerController : MonoBehaviour
     public ParticleSystem obtainEff, dushEffect;
     void Start()
     {
-
         
+
         
     }
     void Awake()
@@ -24,6 +25,9 @@ public class PlayerController : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody2D>();
         isCanConotrol = true;
+        cameraController = GameObject.FindGameObjectWithTag("MainCamera");
+        cameraController.GetComponent<CameraControler>().canTarget = true;
+    
     }
     private void FixedUpdate()
     {

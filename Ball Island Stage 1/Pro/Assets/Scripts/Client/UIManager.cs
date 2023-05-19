@@ -12,12 +12,13 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
     public GameObject startMenu;
     [SerializeField] public InputField usernameField, passwordField;
-    [SerializeField] public GameObject MainCanvas;//playerCamera; 
+    [SerializeField] public GameObject MainCanvas; 
     [SerializeField] public Text LoginFailedNoti;
     [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
     public bool menuAnim = false;
     private DatabaseManager databaseaccess;
     public bool isLoginPage = true;
+    
 
     void Start()
     {

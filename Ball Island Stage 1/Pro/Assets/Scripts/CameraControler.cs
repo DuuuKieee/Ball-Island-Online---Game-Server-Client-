@@ -10,12 +10,20 @@ public class CameraControler : MonoBehaviour
 
     public Transform Target;
 
+    public  bool canTarget = false;
+
     private void Update()
     {
+        if(canTarget == true)
+        {
         Target = GameObject.FindGameObjectWithTag("Player").transform;
+
+
         Vector3 targetPosition = Target.position + offset;
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+    
     }
+}
 }
 
 
