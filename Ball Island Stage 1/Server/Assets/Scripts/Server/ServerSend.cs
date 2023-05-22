@@ -115,6 +115,15 @@ public class ServerSend
             SendUDPDataToAll(_packet);
         }
     }
+    public static void PlayerDisconnected(int _playerId)
+    {
+        using (Packet _packet = new Packet((int)ServerPackets.playerDisconnected))
+        {
+            _packet.Write(_playerId);
+
+            SendTCPDataToAll(_packet);
+        }
+    }
 
     /// <summary>Sends a player's updated rotation to all clients except to himself (to avoid overwriting the local player's rotation).</summary>
     /// <param name="_player">The player whose rotation to update.</param>

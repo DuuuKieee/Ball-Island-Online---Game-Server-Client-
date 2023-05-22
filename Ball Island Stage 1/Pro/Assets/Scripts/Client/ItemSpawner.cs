@@ -10,6 +10,7 @@ public class ItemSpawner : MonoBehaviour
     public Animator anim;
     public GameObject par, lightOb;
     private Vector3 basePosition; 
+    private AudioSource item;
 
     // Start is called before the first frame update
     public void Initialize(int _spawnerId, bool _hasItem)
@@ -31,10 +32,13 @@ public class ItemSpawner : MonoBehaviour
     }
     public void ItemPickedUp()
     {
+        item = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioSource>();
+        item.Play();
         hasItem = false;
         itemModel.enabled = false;
         anim.enabled = false;
         par.SetActive(false);
         lightOb.SetActive(false);
+
     }
 }

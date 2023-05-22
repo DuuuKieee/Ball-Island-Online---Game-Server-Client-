@@ -5080,3 +5080,4 @@ MonoBehaviour:
   anim: {fileID: 2159802225760475192}
   par: {fileID: 2159802224195905690}
   lightOb: {fileID: 2159802225708279062}
+  audioData: {fileID: 0}

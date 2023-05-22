@@ -10,6 +10,7 @@ public enum ServerPackets
     welcome = 1,
     spawnPlayer,
     playerPosition,
+    playerDisconnected,
     createItemSpawner,
     itemSpawned,
     itemPickedUp

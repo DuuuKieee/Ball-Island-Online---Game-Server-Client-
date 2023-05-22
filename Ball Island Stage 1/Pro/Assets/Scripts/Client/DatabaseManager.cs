@@ -1,6 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Authentication;
+using MongoDB.Driver.Linq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class DatabaseManager : MonoBehaviour
 {
@@ -17,11 +18,18 @@ public class DatabaseManager : MonoBehaviour
     IMongoDatabase database;
     IMongoCollection<BsonDocument> collection;
     private UIManager UI;
+    [SerializeField] public Text leaderBoard;
+    
     void Start()
     {
         database = client.GetDatabase("UserDB");
         collection = database.GetCollection<BsonDocument>("UserCollection");
         UI = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
+    }
+    void Update()
+    {
+
+
     }
 
     // Update is called once per frame
@@ -42,7 +50,7 @@ public class DatabaseManager : MonoBehaviour
                 {
                     var salt_ = DateTime.Now.ToString();
                     string pass_ = HashPassword(Password + salt_);
-                    var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\" }}");
+                    var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\",Point: {0},Death: {0} }}");
                     await collection.InsertOneAsync(document);
                     UI.DisplayNoti("Congratulations, your account has been successfully created.", true);
                 }
@@ -77,6 +85,35 @@ public class DatabaseManager : MonoBehaviour
         }
     }
 
+    public void GenerateLeaderBoardGlobal()
+    {
+        var filter = Builders<BsonDocument>.Filter.Empty;
+        var sort = Builders<BsonDocument>.Sort.Descending("Point");
+        var limit = 5;
+        var topPlayers = collection.Find(filter).Sort(sort).Limit(limit).ToList();
+        var sb = new StringBuilder();
+        foreach (var player in topPlayers)
+        {       
+         var name = player.GetValue("username").AsString;
+         var point = player.GetValue("Point").AsInt32;
+         var death = player.GetValue("Death").AsInt32;
+         float PD;
+         if(death == 0)
+         {
+            PD = point;
+         }
+         else if (point == 0)
+         {
+            PD = 0;
+         }
+         else
+         {PD = point/death;}
+         sb.AppendLine($"Username: {name}");
+         sb.AppendLine($"Point: {point} Death: {death} P/D: {Math.Round(PD,2).ToString()}");
+        }
+        leaderBoard.text = sb.ToString();
+
+    }   
     
     string HashPassword(string password)
     {

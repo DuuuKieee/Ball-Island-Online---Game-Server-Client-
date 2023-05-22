@@ -6,9 +6,14 @@ public class PlayerManager : MonoBehaviour
 {
     public int id;
     public string username;
-    [SerializeField] GameObject USER;
     void Start()
     {
-    USER.GetComponent<TextMeshPro>().SetText(username); 
+    
     }
+    public void Initialize(int _id, string _username)
+    {
+        id = _id;
+        username = _username;
+    }
+    
 }

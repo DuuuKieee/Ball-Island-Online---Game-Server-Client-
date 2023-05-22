@@ -9,6 +9,7 @@ public class ItemSpawner : MonoBehaviour
 
     public int spawnerId;
     public bool hasItem = false;
+    private DatabaseManager databaseaccess;
 
     private void Start()
     {
@@ -16,6 +17,7 @@ public class ItemSpawner : MonoBehaviour
         spawnerId = nextSpawnerId;
         nextSpawnerId++;
         spawners.Add(spawnerId, this);
+        databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
 
         StartCoroutine(SpawnItem());
     }
@@ -23,11 +25,11 @@ public class ItemSpawner : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && hasItem == true)
         {
             Player _player = other.GetComponent<Player>();
             
-                ItemPickedUp(_player.id);
+            ItemPickedUp(_player.id, _player.username);
             
         }
 
@@ -36,17 +38,17 @@ public class ItemSpawner : MonoBehaviour
 
     private IEnumerator SpawnItem()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(20f);
 
         hasItem = true;
         ServerSend.ItemSpawned(spawnerId);
     }
 
-    private void ItemPickedUp(int _byPlayer)
+    private void ItemPickedUp(int _byPlayer, string username)
     {
         hasItem = false;
         ServerSend.ItemPickedUp(spawnerId, _byPlayer);
-
+        databaseaccess.PointCounter(username);
         StartCoroutine(SpawnItem());
     }
 }

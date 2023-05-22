@@ -29,11 +29,11 @@ public class PlayerController : MonoBehaviour
         cameraController.GetComponent<CameraControler>().canTarget = true;
     
     }
-    private void FixedUpdate()
+    private void Update()
     {
         if (isDrown == false && isCanConotrol)
         {
-            SendInputToServer();
+        
 
         xdir = Input.GetAxis("Horizontal");
         ydir = Input.GetAxis("Vertical");
@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
             animSprite.SetFloat("xSpeed", 0);
             animSprite.SetFloat("ySpeed", 0);
         }
+        SendInputToServer();
 
 
     }

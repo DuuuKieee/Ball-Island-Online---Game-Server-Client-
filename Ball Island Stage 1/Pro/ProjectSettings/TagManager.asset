@@ -17,6 +17,7 @@ TagManager:
   - BLACK
   - Database
   - UI
+  - Audio
   layers:
   - Default
   - TransparentFX

@@ -6,16 +6,18 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public GameObject startMenu;
     [SerializeField] public InputField usernameField, passwordField;
-    [SerializeField] public GameObject MainCanvas; 
+    [SerializeField] public GameObject MainCanvas,leaderBoard,MenuButton; 
     [SerializeField] public Text LoginFailedNoti;
     [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
-    public bool menuAnim = false;
+    public AudioSource mainTheme;
+    
     private DatabaseManager databaseaccess;
     public bool isLoginPage = true;
     
@@ -23,7 +25,20 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
+        mainTheme.Play();
 
+    }
+    void FixedUpdate()
+    {
+        if(Input.GetKey(KeyCode.Tab))
+        {
+            leaderBoard.SetActive(true);
+            databaseaccess.GenerateLeaderBoardGlobal();
+        }
+        else
+        {
+            leaderBoard.SetActive(false);
+        }
     }
 
     private void Awake()
@@ -44,8 +59,18 @@ public class UIManager : MonoBehaviour
     {
         //playerCamera.SetActive(false);
         MainCanvas.SetActive(false);
+        MenuButton.SetActive(true);
+        Destroy(mainTheme);
+
+
 
         Client.instance.ConnectToServer();
+    }
+    public void BacktoMenu()
+    {
+        Application.Quit();
+
+
     }
 
     public void HomepageProcess()
@@ -76,5 +101,6 @@ public class UIManager : MonoBehaviour
         string tColor = success ? "green" : "red";
         LoginFailedNoti.text = "<color="+tColor+">" + message + "</color>";
     }
+
    
 }

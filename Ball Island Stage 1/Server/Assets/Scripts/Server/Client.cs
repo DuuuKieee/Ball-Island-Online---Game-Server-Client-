@@ -244,7 +244,7 @@ public class Client
     /// <summary>Disconnects the client and stops all network traffic.</summary>
     private void Disconnect()
     {
-         Debug.Log($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
+        Debug.Log($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
 
         ThreadManager.ExecuteOnMainThread(() =>
         {
@@ -254,5 +254,7 @@ public class Client
 
         tcp.Disconnect();
         udp.Disconnect();
+
+        ServerSend.PlayerDisconnected(id);
     }
 }

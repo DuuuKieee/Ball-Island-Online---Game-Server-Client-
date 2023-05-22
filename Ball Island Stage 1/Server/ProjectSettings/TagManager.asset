@@ -15,6 +15,7 @@ TagManager:
   - BALL
   - Goal
   - BLACK
+  - Database
   layers:
   - Default
   - TransparentFX

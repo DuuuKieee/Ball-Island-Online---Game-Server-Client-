@@ -8,19 +8,21 @@ public class Player : MonoBehaviour
     public int id;
     public string username;
 
-    public bool isPressMoveKey, isDashing, isCanConotrol;
-    [SerializeField] float timeDashing, dashRecoil = 4, nextDash = 0;
+    public bool isPressMoveKey, isCanConotrol;
       public ParticleSystem obtainEff, dushEffect;
 
-    private float moveSpeed = 700f / Constants.TICKS_PER_SEC, dashSpeed = 700f / Constants.TICKS_PER_SEC, dashStopSpeed = 500f / Constants.TICKS_PER_SEC;
+    private float moveSpeed = 700f / Constants.TICKS_PER_SEC;
     public float bounceForce;
     private bool[] inputs;
     public bool isDrown;
     public Rigidbody2D rb;
+    private DatabaseManager databaseaccess;
+    
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         isCanConotrol = true;
+        databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
 
     }
 
@@ -105,16 +107,15 @@ public class Player : MonoBehaviour
             //transform.Translate(new Vector2(-collision.contacts[0].normal.x*1.2f, -collision.contacts[0].normal.y*1.2f));
 
             rb.velocity = Vector2.zero;
+            databaseaccess.DeadCounter(username);
             StartCoroutine(Respawn(5, spawnpos));
         }
 
-        isDashing = false;
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Water")
         {
-            print("hit water");
             Vector3 landPos = enterWaterPos;
 
             rb.velocity = Vector2.zero;
@@ -129,10 +130,6 @@ public class Player : MonoBehaviour
         transform.position = spawnpos;
         isDrown = false;
 
-
-        //Mot cai giong ham Hurt() danh rieng cho viec roi xuong nuoc
-
-        print("Player Hurt");
     }
     
     
@@ -142,6 +139,7 @@ public class Player : MonoBehaviour
     /// <summary>Updates the player input with newly received input.</summary>
     /// <param name="_inputs">The new key inputs.</param>
     /// <param name="_rotation">The new rotation.</param>
+    
     public void SetInput(bool[] _inputs, Quaternion _rotation)
     {
         inputs = _inputs;
