@@ -18,6 +18,7 @@ TagManager:
   - Database
   - UI
   - Audio
+  - Client
   layers:
   - Default
   - TransparentFX

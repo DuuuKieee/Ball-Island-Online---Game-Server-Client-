@@ -4,15 +4,10 @@ using MongoDB.Driver.Core.Authentication;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using UnityEditor.Search;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using static MongoDB.Driver.WriteConcern;
-using static UnityEditor.ShaderData;
 
 
 public class DatabaseManager : MonoBehaviour

@@ -70,7 +70,7 @@ public class DatabaseManager : MonoBehaviour
                 var savedPassword = user["password"].AsString;
                 if (savedPassword.Equals(pass_, StringComparison.OrdinalIgnoreCase))
                 {
-                    UI.ConnectToServer();
+                    UI.ServerMenu();
                     Debug.Log("Da chay");
                 }
                 else

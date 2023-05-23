@@ -12,11 +12,13 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public GameObject startMenu;
-    [SerializeField] public InputField usernameField, passwordField;
-    [SerializeField] public GameObject MainCanvas,leaderBoard,MenuButton; 
+    [SerializeField] public InputField usernameField, passwordField,ipfield, portfield;
+    [SerializeField] public GameObject MainCanvas,leaderBoard,MenuButton,serverMenu, clientObj; 
     [SerializeField] public Text LoginFailedNoti;
     [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
     public AudioSource mainTheme;
+    public Client client;
+
     
     private DatabaseManager databaseaccess;
     public bool isLoginPage = true;
@@ -26,6 +28,7 @@ public class UIManager : MonoBehaviour
     {
         databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
         mainTheme.Play();
+        //client = GameObject.FindGameObjectWithTag("Client").GetComponent<Client>();
 
     }
     void FixedUpdate()
@@ -57,15 +60,21 @@ public class UIManager : MonoBehaviour
     /// <summary>Attempts to connect to the server.</summary>
     public void ConnectToServer()
     {
-        //playerCamera.SetActive(false);
-        MainCanvas.SetActive(false);
-        MenuButton.SetActive(true);
+        serverMenu.SetActive(false);
         Destroy(mainTheme);
-
-
+        clientObj.GetComponent<Client>().ip = ipfield.text;
+        clientObj.GetComponent<Client>().port = int.Parse(portfield.text);
 
         Client.instance.ConnectToServer();
     }
+    public void ServerMenu()
+    {
+        MainCanvas.SetActive(false);
+        serverMenu.SetActive(true);
+
+        
+    }
+
     public void BacktoMenu()
     {
         Application.Quit();

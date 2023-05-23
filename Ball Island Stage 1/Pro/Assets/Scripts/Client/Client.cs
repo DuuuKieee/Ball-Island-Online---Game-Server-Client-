@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Net;
 using System.Net.Sockets;
 using System;
@@ -10,8 +11,8 @@ public class Client : MonoBehaviour
     public static Client instance;
     public static int dataBufferSize = 4096;
 
-    public string ip = "127.0.0.1";
-    public int port = 26950;
+    public string ip ="127.0.0.1";
+    public int port;
     public int myId = 0;
     public TCP tcp;
     public UDP udp;
@@ -35,8 +36,7 @@ public class Client : MonoBehaviour
 
     private void Start()
     {
-        tcp = new TCP();
-        udp = new UDP();
+        
     }
 
     private void OnApplicationQuit()
@@ -47,6 +47,8 @@ public class Client : MonoBehaviour
     /// <summary>Attempts to connect to the server.</summary>
     public void ConnectToServer()
     {
+        tcp = new TCP();
+        udp = new UDP();
         InitializeClientData();
 
         isConnected = true;
