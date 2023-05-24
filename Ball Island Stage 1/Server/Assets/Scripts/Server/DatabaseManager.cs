@@ -28,11 +28,7 @@ public class DatabaseManager : MonoBehaviour
         string user_ = Username;
         var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
         var update = Builders<BsonDocument>.Update.Inc("Point", 1);
-        
-
         await collection.UpdateOneAsync(filter, update);
-        
-
     }
     public async void DeadCounter(string Username)
     {

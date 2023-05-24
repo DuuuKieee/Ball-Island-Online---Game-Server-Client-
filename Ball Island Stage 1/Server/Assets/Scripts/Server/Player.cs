@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public bool isPressMoveKey, isCanConotrol;
       public ParticleSystem obtainEff, dushEffect;
 
-    private float moveSpeed = 700f / Constants.TICKS_PER_SEC;
+    private float moveSpeed = 750f / Constants.TICKS_PER_SEC;
     public float bounceForce;
     private bool[] inputs;
     public bool isDrown;
@@ -108,7 +108,7 @@ public class Player : MonoBehaviour
 
             rb.velocity = Vector2.zero;
             databaseaccess.DeadCounter(username);
-            StartCoroutine(Respawn(5, spawnpos));
+            StartCoroutine(Respawn(10, spawnpos));
         }
 
     }
@@ -121,7 +121,7 @@ public class Player : MonoBehaviour
             rb.velocity = Vector2.zero;
             isDrown = true;
 
-            StartCoroutine(Respawn(5, spawnpos));
+            StartCoroutine(Respawn(10, spawnpos));
         }
     }
     IEnumerator Respawn(float sec, Vector3 landPos)

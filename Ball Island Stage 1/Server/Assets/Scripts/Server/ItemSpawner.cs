@@ -38,7 +38,7 @@ public class ItemSpawner : MonoBehaviour
 
     private IEnumerator SpawnItem()
     {
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(Random.Range(20f, 35f));
 
         hasItem = true;
         ServerSend.ItemSpawned(spawnerId);

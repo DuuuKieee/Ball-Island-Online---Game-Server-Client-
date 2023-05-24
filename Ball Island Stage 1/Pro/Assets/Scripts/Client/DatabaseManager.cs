@@ -107,9 +107,11 @@ public class DatabaseManager : MonoBehaviour
             PD = 0;
          }
          else
-         {PD = point/death;}
+         {PD = PD = (float)point / (float)death;}
          sb.AppendLine($"Username: {name}");
-         sb.AppendLine($"Point: {point} Death: {death} P/D: {Math.Round(PD,2).ToString()}");
+         sb.AppendLine($"Point: {point} Death: {death} P/D: {PD.ToString("F2")}");
+
+
         }
         leaderBoard.text = sb.ToString();
 
