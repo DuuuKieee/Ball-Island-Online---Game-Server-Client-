@@ -19,6 +19,7 @@ public class DatabaseManager : MonoBehaviour
     IMongoCollection<BsonDocument> collection;
     private UIManager UI;
     [SerializeField] public Text leaderBoard;
+    public string playerName;
     
     void Start()
     {
@@ -38,6 +39,7 @@ public class DatabaseManager : MonoBehaviour
         string user_ = Username;
         var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
         var user = await collection.Find(filter).FirstOrDefaultAsync();
+        var update = Builders<BsonDocument>.Update.Set("status", "online");
         if(user == null)
         {
             if (UI.isLoginPage == true)
@@ -50,7 +52,7 @@ public class DatabaseManager : MonoBehaviour
                 {
                     var salt_ = DateTime.Now.ToString();
                     string pass_ = HashPassword(Password + salt_);
-                    var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\",Point: {0},Death: {0} }}");
+                    var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\",isOnline: \"{"false"}\",Point: {0},Death: {0} }}");
                     await collection.InsertOneAsync(document);
                     UI.DisplayNoti("Congratulations, your account has been successfully created.", true);
                 }
@@ -68,10 +70,21 @@ public class DatabaseManager : MonoBehaviour
                 var salt_ = user["salt"].AsString;
                 string pass_ = HashPassword(Password + salt_);
                 var savedPassword = user["password"].AsString;
+                var status = user["isOnline"].AsString;
                 if (savedPassword.Equals(pass_, StringComparison.OrdinalIgnoreCase))
                 {
+                    if(status == "false")
+                    {
                     UI.ServerMenu();
+                    playerName = user_;
+                    SetStatus("true");
+
                     Debug.Log("Da chay");
+                    }
+                    else
+                    {
+                        UI.DisplayNoti("Your account has been logged in on another device.", false);
+                    }
                 }
                 else
                 {
@@ -116,7 +129,21 @@ public class DatabaseManager : MonoBehaviour
         leaderBoard.text = sb.ToString();
 
     }   
-    
+    public async void SetStatus(string status)
+    {
+        var filter = Builders<BsonDocument>.Filter.Eq("username", playerName);
+        var user = await collection.Find(filter).FirstOrDefaultAsync();
+        if(user != null)
+        {
+        var update = Builders<BsonDocument>.Update.Set("isOnline", status);
+        await collection.UpdateOneAsync(filter, update);
+        }
+        
+    }
+    private void OnApplicationQuit()
+    {
+        SetStatus("false");
+    }
     string HashPassword(string password)
     {
         SHA256 hash = SHA256.Create();

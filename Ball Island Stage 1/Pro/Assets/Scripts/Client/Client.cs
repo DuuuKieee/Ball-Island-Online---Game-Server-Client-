@@ -16,6 +16,7 @@ public class Client : MonoBehaviour
     public int myId = 0;
     public TCP tcp;
     public UDP udp;
+    private DatabaseManager databaseaccess;
 
     private bool isConnected = false;
     private delegate void PacketHandler(Packet _packet);
@@ -26,6 +27,7 @@ public class Client : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
         }
         else if (instance != this)
         {
@@ -312,6 +314,7 @@ public class Client : MonoBehaviour
     {
         if (isConnected)
         {
+            databaseaccess.SetStatus("false");
             isConnected = false;
             tcp.socket.Close();
             udp.socket.Close();
