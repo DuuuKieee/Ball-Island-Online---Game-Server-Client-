@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] public GameObject MainCanvas,leaderBoard,MenuButton,serverMenu, clientObj; 
     [SerializeField] public Text LoginFailedNoti;
     [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
+    public string username;
     public AudioSource mainTheme;
     public Client client;
 
@@ -72,21 +73,21 @@ public class UIManager : MonoBehaviour
         MainCanvas.SetActive(false);
         serverMenu.SetActive(true);
 
-        
     }
 
     public void BacktoMenu()
     {
+        databaseaccess.SetStatus("false");
         Application.Quit();
-
-
     }
 
     public void HomepageProcess()
     {
         databaseaccess.HomepageManager(usernameField.text, passwordField.text);
+        username = usernameField.text;
 
     }
+
 
     public void ChangeMenuStatus()
     {
