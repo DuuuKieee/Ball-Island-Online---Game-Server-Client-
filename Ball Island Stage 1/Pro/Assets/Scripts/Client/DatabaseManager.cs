@@ -1,4 +1,4 @@
-﻿using MongoDB.Bson;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Authentication;
 using MongoDB.Driver.Linq;
