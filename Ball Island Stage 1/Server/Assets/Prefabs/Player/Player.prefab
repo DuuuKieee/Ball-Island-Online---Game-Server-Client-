@@ -283,7 +283,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466943193002995039}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85b3532e9e47966439215a0714346ac5, type: 2}
   m_CullingMode: 0
@@ -309,13 +309,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   username: 
-  dashRecoil: 3
   isPressMoveKey: 0
-  isDashing: 0
   isCanConotrol: 0
-  timeDashing: 0.1
   obtainEff: {fileID: 6191181113307684643, guid: 18e50f2398b0e5347b7b34ca5937ee44, type: 3}
   dushEffect: {fileID: 7407370807010170673, guid: ed29e635475dda148bd7fcbd13862fd3, type: 3}
+  bounceForce: 0
   isDrown: 0
   rb: {fileID: 0}
 --- !u!1 &1466943193160326573

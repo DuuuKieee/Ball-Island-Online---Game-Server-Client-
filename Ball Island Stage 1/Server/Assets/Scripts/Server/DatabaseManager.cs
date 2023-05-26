@@ -39,5 +39,16 @@ public class DatabaseManager : MonoBehaviour
         await collection.UpdateOneAsync(filter, update);
 
     }
+    public async void SetStatus(string status, string playerName)
+    {
+        var filter = Builders<BsonDocument>.Filter.Eq("username", playerName);
+        var user = await collection.Find(filter).FirstOrDefaultAsync();
+        if(user != null)
+        {
+        var update = Builders<BsonDocument>.Update.Set("isOnline", status);
+        await collection.UpdateOneAsync(filter, update);
+        }
+        
+    }
 
 }

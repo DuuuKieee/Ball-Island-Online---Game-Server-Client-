@@ -314,7 +314,7 @@ public class Client : MonoBehaviour
     {
         if (isConnected)
         {
-            databaseaccess.SetStatus("false");
+            //databaseaccess.SetStatus("false");
             isConnected = false;
             tcp.socket.Close();
             udp.socket.Close();

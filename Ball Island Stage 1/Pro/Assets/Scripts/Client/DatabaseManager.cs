@@ -19,7 +19,6 @@ public class DatabaseManager : MonoBehaviour
     IMongoCollection<BsonDocument> collection;
     private UIManager UI;
     [SerializeField] public Text leaderBoard;
-    public string playerName;
     
     void Start()
     {
@@ -76,8 +75,6 @@ public class DatabaseManager : MonoBehaviour
                     if(status == "false")
                     {
                     UI.ServerMenu();
-                    playerName = user_;
-                    SetStatus("true");
 
                     Debug.Log("Da chay");
                     }
@@ -129,21 +126,18 @@ public class DatabaseManager : MonoBehaviour
         leaderBoard.text = sb.ToString();
 
     }   
-    public async void SetStatus(string status)
-    {
-        var filter = Builders<BsonDocument>.Filter.Eq("username", playerName);
-        var user = await collection.Find(filter).FirstOrDefaultAsync();
-        if(user != null)
-        {
-        var update = Builders<BsonDocument>.Update.Set("isOnline", status);
-        await collection.UpdateOneAsync(filter, update);
-        }
+    // public async void SetStatus(string status)
+    // {
+    //     var filter = Builders<BsonDocument>.Filter.Eq("username", playerName);
+    //     var user = await collection.Find(filter).FirstOrDefaultAsync();
+    //     if(user != null)
+    //     {
+    //     var update = Builders<BsonDocument>.Update.Set("isOnline", status);
+    //     await collection.UpdateOneAsync(filter, update);
+    //     }
         
-    }
-    private void OnApplicationQuit()
-    {
-        SetStatus("false");
-    }
+    // }
+
     string HashPassword(string password)
     {
         SHA256 hash = SHA256.Create();

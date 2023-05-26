@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         isCanConotrol = true;
         databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
+        databaseaccess.SetStatus("true", username);
 
     }
 
@@ -131,10 +132,15 @@ public class Player : MonoBehaviour
         isDrown = false;
 
     }
-    
-    
-
-   
+    public void OnDestroy()
+    {
+        databaseaccess.SetStatus("false",username);
+        Debug.Log("Da set status");
+    }
+    public void OnApplicationQuit()
+    {
+        databaseaccess.SetStatus("false",username);
+    }
 
     /// <summary>Updates the player input with newly received input.</summary>
     /// <param name="_inputs">The new key inputs.</param>

@@ -16,6 +16,7 @@ public class Client
 
     public Client(int _clientId)
     {
+        
         id = _clientId;
         tcp = new TCP(id);
         udp = new UDP(id);
@@ -254,7 +255,6 @@ public class Client
 
         tcp.Disconnect();
         udp.Disconnect();
-
         ServerSend.PlayerDisconnected(id);
     }
 }
