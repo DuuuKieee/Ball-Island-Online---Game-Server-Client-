@@ -3377,7 +3377,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'IP: 192.168.123.321'
+  m_Text: 'IP: 192.168.1.159'
 --- !u!222 &28059354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42229,7 +42229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 773.1168, y: 353.21448}
+  m_AnchoredPosition: {x: -773.12, y: 353.21}
   m_SizeDelta: {x: -1546.2336, y: -706.4288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &568135627
@@ -42795,7 +42795,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Port: '
+  m_Text: 'Port: 7777
+
+'
 --- !u!222 &695686943
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47877,7 +47879,7 @@ Tilemap:
       - {fileID: 4714704212175276873, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
       - {fileID: -7839720929918244483, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
       - {fileID: -6146795774391780013, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -1, y: -10, z: 0}
@@ -48034,7 +48036,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 2058049638561703503, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -2746839580606631015, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: 7, z: 0}
@@ -48050,7 +48052,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 7642980859614939925, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -174804484191063705, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 14, z: 0}
@@ -48146,7 +48148,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 7642980859614939925, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -174804484191063705, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 36, z: 0}
@@ -48226,7 +48228,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 7642980859614939925, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -174804484191063705, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 15, y: 39, z: 0}
@@ -49425,7 +49427,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Port: '
+  m_Text: 'Port: 7777'
 --- !u!222 &1280083957
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -62538,6 +62540,7 @@ MonoBehaviour:
   LoginFailedNoti: {fileID: 1690339698}
   ChangeMenuStatusBtn: {fileID: 1291631003}
   ActionBtn: {fileID: 1141173822}
+  username: 
   mainTheme: {fileID: 1426903821}
   client: {fileID: 0}
   isLoginPage: 1
@@ -63438,7 +63441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -910, y: 490}
+  m_AnchoredPosition: {x: 910, y: 490}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898792145

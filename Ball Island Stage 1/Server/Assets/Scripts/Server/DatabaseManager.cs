@@ -15,11 +15,12 @@ public class DatabaseManager : MonoBehaviour
     // Start is called before the first frame update
     MongoClient client = new MongoClient("mongodb+srv://DuuuKieee:899767147@loginserver.hqnkiia.mongodb.net/?retryWrites=true&w=majority");
     IMongoDatabase database;
-    IMongoCollection<BsonDocument> collection;
+    IMongoCollection<BsonDocument> collection, servercollection;
     void Start()
     {
         database = client.GetDatabase("UserDB");
         collection = database.GetCollection<BsonDocument>("UserCollection");
+        servercollection = database.GetCollection<BsonDocument>("ServerCollection");
     }
 
     // Update is called once per frame

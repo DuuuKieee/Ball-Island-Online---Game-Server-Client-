@@ -77,7 +77,6 @@ public class UIManager : MonoBehaviour
 
     public void BacktoMenu()
     {
-        //databaseaccess.SetStatus("false");
         Application.Quit();
     }
 
