@@ -17,8 +17,6 @@ public class ItemSpawner : MonoBehaviour
         spawnerId = nextSpawnerId;
         nextSpawnerId++;
         spawners.Add(spawnerId, this);
-        databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
-
         StartCoroutine(SpawnItem());
     }
 
@@ -48,7 +46,7 @@ public class ItemSpawner : MonoBehaviour
     {
         hasItem = false;
         ServerSend.ItemPickedUp(spawnerId, _byPlayer);
-        databaseaccess.PointCounter(username);
+        DatabaseManager.instance.PointCounter(username);
         StartCoroutine(SpawnItem());
     }
 }

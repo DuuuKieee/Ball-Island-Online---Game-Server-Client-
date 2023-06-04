@@ -19,6 +19,8 @@ TagManager:
   - UI
   - Audio
   - Client
+  - bush
+  - coconut
   layers:
   - Default
   - TransparentFX

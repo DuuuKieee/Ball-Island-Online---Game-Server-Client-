@@ -3759,6 +3759,7 @@ MonoBehaviour:
   localPlayerPrefab: {fileID: 1466943193002995039, guid: e90a460f00f299349a7e298b1850276a, type: 3}
   playerPrefab: {fileID: 1466943193002995039, guid: 8a9fd6dabfe03e14ea7dab93c912f05a, type: 3}
   itemSpawnerPrefab: {fileID: 2159802225760475189, guid: 437d99defc6c2324592633a210fe25e9, type: 3}
+  enemyPrefab: {fileID: 4567367257156758181, guid: ae2083e860b14944bb37006d3301915d, type: 3}
 --- !u!4 &78930084
 Transform:
   m_ObjectHideFlags: 0
@@ -47841,7 +47842,7 @@ Tilemap:
       - {fileID: 4714704212175276873, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
       - {fileID: -7839720929918244483, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
       - {fileID: -6146795774391780013, guid: 51b278ae19391f24da5d6ac505fca4ef, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: -10, z: 0}
@@ -48116,7 +48117,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 2058049638561703503, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -2746839580606631015, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -13, y: 34, z: 0}
@@ -48148,7 +48149,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 7642980859614939925, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -174804484191063705, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 36, z: 0}
@@ -48268,7 +48269,7 @@ Tilemap:
       m_AnimatedSprites:
       - {fileID: 2058049638561703503, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
       - {fileID: -2746839580606631015, guid: 5d3bc54fde1ad2b4b938a209368b967f, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -1, y: 48, z: 0}
@@ -60873,14 +60874,14 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 59.647514
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -60963,7 +60964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426903820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 581.4667, y: 578.8493, z: 97.619415}
+  m_LocalPosition: {x: -0.9, y: 19.9, z: 97.619415}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

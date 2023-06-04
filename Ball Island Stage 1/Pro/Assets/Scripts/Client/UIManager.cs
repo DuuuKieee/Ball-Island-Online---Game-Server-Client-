@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
 
     
     private DatabaseManager databaseaccess;
+    private GameObject player;
     public bool isLoginPage = true;
     
 

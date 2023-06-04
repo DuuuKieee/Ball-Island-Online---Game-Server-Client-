@@ -13,9 +13,22 @@ using static MongoDB.Driver.WriteConcern;
 public class DatabaseManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public static DatabaseManager instance;
     MongoClient client = new MongoClient("mongodb+srv://DuuuKieee:899767147@loginserver.hqnkiia.mongodb.net/?retryWrites=true&w=majority");
     IMongoDatabase database;
     IMongoCollection<BsonDocument> collection, servercollection;
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Debug.Log("Instance already exists, destroying object!");
+            Destroy(this);
+        }
+    }
     void Start()
     {
         database = client.GetDatabase("UserDB");
@@ -30,6 +43,7 @@ public class DatabaseManager : MonoBehaviour
         var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
         var update = Builders<BsonDocument>.Update.Inc("Point", 1);
         await collection.UpdateOneAsync(filter, update);
+        Debug.Log("Da cong");
     }
     public async void DeadCounter(string Username)
     {

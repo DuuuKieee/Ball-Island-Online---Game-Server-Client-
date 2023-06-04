@@ -5,6 +5,7 @@ using UnityEngine;
 public class NetworkManager : MonoBehaviour
 {
     public static NetworkManager instance;
+    public GameObject enemyPrefab;
 
     public GameObject playerPrefab;
 
@@ -36,5 +37,9 @@ public class NetworkManager : MonoBehaviour
     public Player InstantiatePlayer()
     {
         return Instantiate(playerPrefab, Vector3.zero, Quaternion.identity).GetComponent<Player>();
+    }
+    public void InstantiateEnemy(Vector3 _position)
+    {
+        Instantiate(enemyPrefab, _position, Quaternion.identity);
     }
 }
