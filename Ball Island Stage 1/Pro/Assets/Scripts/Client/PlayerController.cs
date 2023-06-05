@@ -13,12 +13,7 @@ public class PlayerController : MonoBehaviour
     float dashRecoil;
     [SerializeField] float timeDashing;
     public ParticleSystem obtainEff, dushEffect;
-    void Start()
-    {
-        
 
-        
-    }
     void Awake()
     {
         animSprite = ballSpriteObj.GetComponent<Animator>();

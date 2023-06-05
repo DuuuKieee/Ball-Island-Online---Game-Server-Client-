@@ -13,23 +13,32 @@ using UnityEngine.UI;
 
 public class DatabaseManager : MonoBehaviour
 {
+    public static DatabaseManager instance;
     // Start is called before the first frame update
     MongoClient client = new MongoClient("mongodb+srv://DuuuKieee:899767147@loginserver.hqnkiia.mongodb.net/?retryWrites=true&w=majority");
     IMongoDatabase database;
-    IMongoCollection<BsonDocument> collection;
+    IMongoCollection<BsonDocument> collection, collection2;
     private UIManager UI;
-    [SerializeField] public Text leaderBoard;
+    [SerializeField] public Text leaderBoard,serverBoard;
     
     void Start()
     {
         database = client.GetDatabase("UserDB");
         collection = database.GetCollection<BsonDocument>("UserCollection");
+        collection2 = database.GetCollection<BsonDocument>("ServerCollection");
         UI = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
     }
-    void Update()
+    private void Awake()
     {
-
-
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Debug.Log("Instance already exists, destroying object!");
+            Destroy(this);
+        }
     }
 
     // Update is called once per frame
@@ -126,17 +135,20 @@ public class DatabaseManager : MonoBehaviour
         leaderBoard.text = sb.ToString();
 
     }   
-    // public async void SetStatus(string status)
-    // {
-    //     var filter = Builders<BsonDocument>.Filter.Eq("username", playerName);
-    //     var user = await collection.Find(filter).FirstOrDefaultAsync();
-    //     if(user != null)
-    //     {
-    //     var update = Builders<BsonDocument>.Update.Set("isOnline", status);
-    //     await collection.UpdateOneAsync(filter, update);
-    //     }
-        
-    // }
+    public void ServerManager()
+    {
+        var filter = Builders<BsonDocument>.Filter.Eq("status", "online");
+        var servers = collection2.Find(filter).ToList();
+        var sb = new StringBuilder();
+        foreach (var player in servers)
+        {       
+         var ip = player.GetValue("IP").AsString;
+         var port = player.GetValue("port").AsString;
+         sb.AppendLine($"IP: {ip}");
+         sb.AppendLine($"Port: {port}");
+        }
+        serverBoard.text = sb.ToString();
+    }
 
     string HashPassword(string password)
     {

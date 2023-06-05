@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public static int maxEnemies = 4;
+    public static int maxEnemies = 1;
     public static Dictionary<int, Enemy> enemies = new Dictionary<int, Enemy>();
     private static int nextEnemyId = 1;
     private float dirX, dirY;
     public float moveSpeed;
     public Rigidbody2D rb;
 
-    //private bool facingRight = false;
     private Vector3 localScale;
 
     public int id;
-    public Player target;
 
     public Transform shootOrigin;
 
-    public float detectionRange = 30f;
-    public float health = 2;
-    private DatabaseManager databaseaccess;
+
+    public float health = 4;
 
 
     private void Start()
@@ -44,23 +41,6 @@ public class Enemy : MonoBehaviour
          ServerSend.EnemyPosition(this);
     }
 
-    private bool CanSeeTarget()
-    {
-        if (target == null)
-        {
-            return false;
-        }
-        if (Physics.Raycast(shootOrigin.position, target.transform.position - transform.position, out RaycastHit _hit, detectionRange))
-        {
-            if (_hit.collider.CompareTag("Player"))
-            {
-                return true;
-            }
-        }
-
-
-        return false;
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -77,9 +57,12 @@ public class Enemy : MonoBehaviour
             enemies.Remove(id);
             Destroy(gameObject);
             }
+            
             ServerSend.EnemyHealth(this);
         }
     }
+
+
     private void OnCollisionStay2D(Collision2D collision)
     {
         dirX = Random.Range(-1f, 1f);
@@ -89,9 +72,3 @@ public class Enemy : MonoBehaviour
 
 }
 
-
-public enum EnemyState
-{
-    move,
-    attack
-}

@@ -9,21 +9,18 @@ public class Player : MonoBehaviour
     public string username;
 
     public bool isPressMoveKey, isCanConotrol;
-      public ParticleSystem obtainEff, dushEffect;
-
-    private float moveSpeed = 750f / Constants.TICKS_PER_SEC;
+    public ParticleSystem obtainEff, dushEffect;
+    private float moveSpeed = 700f / Constants.TICKS_PER_SEC;
     public float bounceForce;
     private bool[] inputs;
     public bool isDrown;
     public Rigidbody2D rb;
-    private DatabaseManager databaseaccess;
     
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         isCanConotrol = true;
-        databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
-        databaseaccess.SetStatus("true", username);
+        DatabaseManager.instance.SetStatus("true", username);
 
     }
 
@@ -108,7 +105,7 @@ public class Player : MonoBehaviour
             //transform.Translate(new Vector2(-collision.contacts[0].normal.x*1.2f, -collision.contacts[0].normal.y*1.2f));
 
             rb.velocity = Vector2.zero;
-            databaseaccess.DeadCounter(username);
+            DatabaseManager.instance.DeadCounter(username);
             StartCoroutine(Respawn(10, spawnpos));
         }
 
@@ -134,12 +131,11 @@ public class Player : MonoBehaviour
     }
     public void OnDestroy()
     {
-        databaseaccess.SetStatus("false",username);
-        Debug.Log("Da set status");
+        DatabaseManager.instance.SetStatus("false",username);
     }
     public void OnApplicationQuit()
     {
-        databaseaccess.SetStatus("false",username);
+        DatabaseManager.instance.SetStatus("false",username);
     }
 
     /// <summary>Updates the player input with newly received input.</summary>

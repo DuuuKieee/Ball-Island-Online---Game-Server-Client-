@@ -21,14 +21,13 @@ public class UIManager : MonoBehaviour
     public Client client;
 
     
-    private DatabaseManager databaseaccess;
     private GameObject player;
     public bool isLoginPage = true;
     
 
     void Start()
     {
-        databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
+        //databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
         mainTheme.Play();
         //client = GameObject.FindGameObjectWithTag("Client").GetComponent<Client>();
 
@@ -38,7 +37,7 @@ public class UIManager : MonoBehaviour
         if(Input.GetKey(KeyCode.Tab))
         {
             leaderBoard.SetActive(true);
-            databaseaccess.GenerateLeaderBoardGlobal();
+            DatabaseManager.instance.GenerateLeaderBoardGlobal();
         }
         else
         {
@@ -73,7 +72,7 @@ public class UIManager : MonoBehaviour
     {
         MainCanvas.SetActive(false);
         serverMenu.SetActive(true);
-
+        DatabaseManager.instance.ServerManager();
     }
 
     public void BacktoMenu()
@@ -83,7 +82,8 @@ public class UIManager : MonoBehaviour
 
     public void HomepageProcess()
     {
-        databaseaccess.HomepageManager(usernameField.text, passwordField.text);
+        //databaseaccess.HomepageManager(usernameField.text, passwordField.text);
+        DatabaseManager.instance.HomepageManager(usernameField.text, passwordField.text);
         username = usernameField.text;
 
     }
