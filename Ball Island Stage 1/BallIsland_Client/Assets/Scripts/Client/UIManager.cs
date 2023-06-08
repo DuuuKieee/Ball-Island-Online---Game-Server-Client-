@@ -12,24 +12,25 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public GameObject startMenu;
-    [SerializeField] public InputField usernameField, passwordField,ipfield, portfield;
-    [SerializeField] public GameObject MainCanvas,leaderBoard,MenuButton,serverMenu, clientObj; 
-    [SerializeField] public Text LoginFailedNoti;
+    [SerializeField] public InputField usernameField, passwordField,ipfield, portfield, chatField;
+    [SerializeField] public GameObject MainCanvas,leaderBoard,MenuButton,serverMenu, clientObj, menuPanel; 
+    [SerializeField] public Text LoginFailedNoti, broadCastField;
     [SerializeField] public Text ChangeMenuStatusBtn, ActionBtn;
     public string username;
     public AudioSource mainTheme;
     public Client client;
 
+
     
     private GameObject player;
     public bool isLoginPage = true;
+    
     
 
     void Start()
     {
         //databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
         mainTheme.Play();
-        //client = GameObject.FindGameObjectWithTag("Client").GetComponent<Client>();
 
     }
     void FixedUpdate()
@@ -39,6 +40,23 @@ public class UIManager : MonoBehaviour
             leaderBoard.SetActive(true);
             DatabaseManager.instance.GenerateLeaderBoardGlobal();
         }
+        else if(Input.GetKey(KeyCode.Return))
+        {
+            if(!string.IsNullOrEmpty(chatField.text))
+            {
+            SendMessageChat();
+            }
+            Debug.Log("da");
+        }
+        else if(Input.GetKey(KeyCode.T))
+        {
+            if(chatField.interactable == false)
+            chatField.interactable = true;
+            else
+            chatField.interactable = false;
+        }
+        
+
         else
         {
             leaderBoard.SetActive(false);
@@ -65,6 +83,7 @@ public class UIManager : MonoBehaviour
         Destroy(mainTheme);
         clientObj.GetComponent<Client>().ip = ipfield.text;
         clientObj.GetComponent<Client>().port = int.Parse(portfield.text);
+        menuPanel.SetActive(true);
 
         Client.instance.ConnectToServer();
     }
@@ -74,6 +93,7 @@ public class UIManager : MonoBehaviour
         serverMenu.SetActive(true);
         DatabaseManager.instance.ServerManager();
     }
+
 
     public void BacktoMenu()
     {
@@ -102,6 +122,12 @@ public class UIManager : MonoBehaviour
             ActionBtn.text = "Sign In";
         }
         isLoginPage = !isLoginPage;
+    }
+    public void SendMessageChat()
+    {
+        //string _username = GameObject.FindGameObjectWithTag("LocalPlayer").GetComponent<PlayerManager>().username;
+        ClientSend.MessageChat(username +": "+ chatField.text);
+        chatField.text = "";
     }
   
   

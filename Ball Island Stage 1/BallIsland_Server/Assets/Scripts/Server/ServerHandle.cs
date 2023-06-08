@@ -28,4 +28,10 @@ public class ServerHandle
 
         Server.clients[_fromClient].player.SetInput(_inputs, _rotation);
     }
+    public static void ServerBroadcast(int _fromClient, Packet _packet)
+    {
+        string message = _packet.ReadString();
+        ServerSend.Chat(message);
+        Debug.Log("Da nhan");
+    }
 }

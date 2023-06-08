@@ -16,7 +16,6 @@ public class Client : MonoBehaviour
     public int myId = 0;
     public TCP tcp;
     public UDP udp;
-    private DatabaseManager databaseaccess;
 
     private bool isConnected = false;
     private delegate void PacketHandler(Packet _packet);
@@ -26,9 +25,7 @@ public class Client : MonoBehaviour
     {
         if (instance == null)
         {
-            instance = this;
-            databaseaccess = GameObject.FindGameObjectWithTag("Database").GetComponent<DatabaseManager>();
-        }
+            instance = this;        }
         else if (instance != this)
         {
             Debug.Log("Instance already exists, destroying object!");
@@ -308,6 +305,7 @@ public class Client : MonoBehaviour
             { (int)ServerPackets.spawnEnemy, ClientHandle.SpawnEnemy },
             { (int)ServerPackets.enemyPosition, ClientHandle.EnemyPosition },
             { (int)ServerPackets.enemyHealth, ClientHandle.EnemyHealth },
+            { (int)ServerPackets.serverBroadcast, ClientHandle.MessageChat },
         };
         Debug.Log("Initialized packets.");
     }
@@ -317,7 +315,6 @@ public class Client : MonoBehaviour
     {
         if (isConnected)
         {
-            //databaseaccess.SetStatus("false");
             isConnected = false;
             tcp.socket.Close();
             udp.socket.Close();

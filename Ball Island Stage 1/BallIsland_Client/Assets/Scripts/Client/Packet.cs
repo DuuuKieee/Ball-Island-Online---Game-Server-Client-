@@ -16,14 +16,16 @@ public enum ServerPackets
     ItemPickedUp,
     spawnEnemy,
     enemyPosition,
-    enemyHealth
+    enemyHealth,
+    serverBroadcast,
 }
 
 /// <summary>Sent from client to server.</summary>
 public enum ClientPackets
 {
     welcomeReceived = 1,
-    playerMovement
+    playerMovement,
+    clientMessage
 }
 
 public class Packet : IDisposable

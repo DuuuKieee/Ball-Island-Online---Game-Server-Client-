@@ -200,5 +200,13 @@ public class ServerSend
             SendTCPDataToAll(_packet);
         }
     }
+    public static void Chat(string message)
+    {
+        using (Packet _packet = new Packet((int)ServerPackets.serverBroadcast))
+        {
+            _packet.Write(message);
+            SendTCPDataToAll(_packet);
+        }
+    }
     #endregion
 }

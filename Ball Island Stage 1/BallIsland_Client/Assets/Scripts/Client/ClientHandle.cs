@@ -1,6 +1,7 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.Net;
+using System.Text;
 using UnityEngine;
 
 public class ClientHandle : MonoBehaviour
@@ -90,5 +91,14 @@ public class ClientHandle : MonoBehaviour
         float _health = _packet.ReadFloat();
 
         GameManager.enemies[_enemyId].SetHealth(_health);
+    }
+    public static void MessageChat(Packet _packet)
+    {
+        string _message = _packet.ReadString();
+        var sb = new StringBuilder();
+        sb.AppendLine($"{_message}");
+        UIManager.instance.broadCastField.text += sb.ToString();
+        Debug.Log("DA Nhan mess");
+
     }
 }
