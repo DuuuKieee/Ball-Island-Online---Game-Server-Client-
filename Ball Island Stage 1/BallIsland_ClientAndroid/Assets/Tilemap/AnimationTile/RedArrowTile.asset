@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: RedArrowTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 8750129886627072231, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: -1946411723281957725, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: -8216350607760775053, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: 3717608924345672268, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: -7364914149136888104, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  - {fileID: 2429569827873724499, guid: d6204a2f8cc0e4e448e87499d56d8853, type: 3}
+  m_MinSpeed: 20
+  m_MaxSpeed: 20
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
