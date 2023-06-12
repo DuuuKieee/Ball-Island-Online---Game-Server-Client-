@@ -52,6 +52,8 @@ public class Client
             stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
 
             ServerSend.Welcome(id, "Welcome to the server!");
+            ServerSend.AllMessageData(id);
+
         }
 
         /// <summary>Sends data to the client via TCP.</summary>

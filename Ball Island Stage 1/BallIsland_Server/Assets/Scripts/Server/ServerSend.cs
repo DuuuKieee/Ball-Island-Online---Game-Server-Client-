@@ -208,5 +208,13 @@ public class ServerSend
             SendTCPDataToAll(_packet);
         }
     }
+    public static void AllMessageData(int _toClient)
+    {
+        using (Packet _packet = new Packet((int)ServerPackets.serverBroadcast))
+        {
+            _packet.Write(ServerHandle.sb);
+            SendTCPData(_toClient, _packet);
+        }
+    }
     #endregion
 }

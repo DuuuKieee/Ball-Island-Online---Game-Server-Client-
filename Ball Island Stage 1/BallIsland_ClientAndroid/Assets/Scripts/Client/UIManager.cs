@@ -18,8 +18,6 @@ public class UIManager : MonoBehaviour
     public string username;
     public AudioSource mainTheme;
 
-
-    
     private GameObject player;
     public bool isLoginPage = true;
     
@@ -76,27 +74,11 @@ public class UIManager : MonoBehaviour
 
     public void HomepageProcess()
     {
-        //databaseaccess.HomepageManager(usernameField.text, passwordField.text);
-        DatabaseManager.instance.HomepageManager(usernameField.text, passwordField.text);
-        username = usernameField.text;
+        username = usernameField.text + "(Guest)";
+        ServerMenu();
 
     }
 
-
-    public void ChangeMenuStatus()
-    {
-        if (isLoginPage)
-        {
-            ChangeMenuStatusBtn.text = "Back to Login";
-            ActionBtn.text = "Sign Up";
-        }
-        else
-        {
-            ChangeMenuStatusBtn.text = "Create new account";
-            ActionBtn.text = "Sign In";
-        }
-        isLoginPage = !isLoginPage;
-    }
     public void SendMessageChat()
     {
         //string _username = GameObject.FindGameObjectWithTag("LocalPlayer").GetComponent<PlayerManager>().username;

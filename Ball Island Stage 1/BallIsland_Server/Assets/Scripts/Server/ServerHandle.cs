@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 
 public class ServerHandle
 {
+    public static string sb;
     public static void WelcomeReceived(int _fromClient, Packet _packet)
     {
         int _clientIdCheck = _packet.ReadInt();
@@ -31,6 +33,7 @@ public class ServerHandle
     public static void ServerBroadcast(int _fromClient, Packet _packet)
     {
         string message = _packet.ReadString();
+        sb += $"{message}\n";
         ServerSend.Chat(message);
         Debug.Log("Da nhan");
     }

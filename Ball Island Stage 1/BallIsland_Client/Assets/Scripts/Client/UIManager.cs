@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour
 
     
     private GameObject player;
-    public bool isLoginPage = true;
+    public bool isLoginPage = true, isChating;
     
     
 
@@ -40,20 +40,25 @@ public class UIManager : MonoBehaviour
             leaderBoard.SetActive(true);
             DatabaseManager.instance.GenerateLeaderBoardGlobal();
         }
-        else if(Input.GetKey(KeyCode.Return))
+        else if(Input.GetKey(KeyCode.Return) && isChating == true)
         {
             if(!string.IsNullOrEmpty(chatField.text))
             {
             SendMessageChat();
             }
-            Debug.Log("da");
+            else{
+                isChating = false;
+                chatField.interactable = false;
+            }
         }
         else if(Input.GetKey(KeyCode.T))
         {
-            if(chatField.interactable == false)
+            if(isChating == false)
+            {
             chatField.interactable = true;
-            else
-            chatField.interactable = false;
+            chatField.Select();
+            isChating =true;
+            }
         }
         
 
@@ -84,6 +89,8 @@ public class UIManager : MonoBehaviour
         clientObj.GetComponent<Client>().ip = ipfield.text;
         clientObj.GetComponent<Client>().port = int.Parse(portfield.text);
         menuPanel.SetActive(true);
+        chatField.interactable = false;
+        isChating = false;
 
         Client.instance.ConnectToServer();
     }

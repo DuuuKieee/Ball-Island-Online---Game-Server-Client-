@@ -42,67 +42,67 @@ public class DatabaseManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    public async void HomepageManager(string Username, string Password)
-    {
-        string user_ = Username;
-        var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
-        var user = await collection.Find(filter).FirstOrDefaultAsync();
-        var update = Builders<BsonDocument>.Update.Set("status", "online");
-        if(user == null)
-        {
-            if (UI.isLoginPage == true)
-            {
-                UI.DisplayNoti("Invalid Username or Password.", false);
-            }
-            else
-            {
-                if (Password.Length >= 8 && Password.Length <= 15)
-                {
-                    var salt_ = DateTime.Now.ToString();
-                    string pass_ = HashPassword(Password + salt_);
-                    var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\",isOnline: \"{"false"}\",Point: {0},Death: {0} }}");
-                    await collection.InsertOneAsync(document);
-                    UI.DisplayNoti("Congratulations, your account has been successfully created.", true);
-                }
-                else
-                {
-                    UI.DisplayNoti("Your password must be at least 8 characters.", false);
-                } 
+    // public async void HomepageManager(string Username, string Password)
+    // {
+    //     string user_ = Username;
+    //     var filter = Builders<BsonDocument>.Filter.Eq("username", user_);
+    //     var user = await collection.Find(filter).FirstOrDefaultAsync();
+    //     var update = Builders<BsonDocument>.Update.Set("status", "online");
+    //     if(user == null)
+    //     {
+    //         if (UI.isLoginPage == true)
+    //         {
+    //             UI.DisplayNoti("Invalid Username or Password.", false);
+    //         }
+    //         else
+    //         {
+    //             if (Password.Length >= 8 && Password.Length <= 15)
+    //             {
+    //                 var salt_ = DateTime.Now.ToString();
+    //                 string pass_ = HashPassword(Password + salt_);
+    //                 var document = BsonDocument.Parse($"{{ username: \"{user_}\", password: \"{pass_}\", salt: \"{salt_}\",isOnline: \"{"false"}\",Point: {0},Death: {0} }}");
+    //                 await collection.InsertOneAsync(document);
+    //                 UI.DisplayNoti("Congratulations, your account has been successfully created.", true);
+    //             }
+    //             else
+    //             {
+    //                 UI.DisplayNoti("Your password must be at least 8 characters.", false);
+    //             } 
                     
-            }
-        }
-        else
-        {
-            if(UI.isLoginPage == true)
-            {
-                var salt_ = user["salt"].AsString;
-                string pass_ = HashPassword(Password + salt_);
-                var savedPassword = user["password"].AsString;
-                var status = user["isOnline"].AsString;
-                if (savedPassword.Equals(pass_, StringComparison.OrdinalIgnoreCase))
-                {
-                    if(status == "false")
-                    {
-                    UI.ServerMenu();
+    //         }
+    //     }
+    //     else
+    //     {
+    //         if(UI.isLoginPage == true)
+    //         {
+    //             var salt_ = user["salt"].AsString;
+    //             string pass_ = HashPassword(Password + salt_);
+    //             var savedPassword = user["password"].AsString;
+    //             var status = user["isOnline"].AsString;
+    //             if (savedPassword.Equals(pass_, StringComparison.OrdinalIgnoreCase))
+    //             {
+    //                 if(status == "false")
+    //                 {
+    //                 UI.ServerMenu();
 
-                    Debug.Log("Da chay");
-                    }
-                    else
-                    {
-                        UI.DisplayNoti("Your account has been logged in on another device.", false);
-                    }
-                }
-                else
-                {
-                    UI.DisplayNoti("Invalid Username or Password.", false);
-                }
-            }
-            else
-            {
-                UI.DisplayNoti("This username is already being used.", false);
-            }    
-        }
-    }
+    //                 Debug.Log("Da chay");
+    //                 }
+    //                 else
+    //                 {
+    //                     UI.DisplayNoti("Your account has been logged in on another device.", false);
+    //                 }
+    //             }
+    //             else
+    //             {
+    //                 UI.DisplayNoti("Invalid Username or Password.", false);
+    //             }
+    //         }
+    //         else
+    //         {
+    //             UI.DisplayNoti("This username is already being used.", false);
+    //         }    
+    //     }
+    // }
 
     public void GenerateLeaderBoardGlobal()
     {
