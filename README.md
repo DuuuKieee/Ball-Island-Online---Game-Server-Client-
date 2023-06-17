@@ -15,5 +15,5 @@ Nguyễn Nguyễn Duy An - 21520546
 Script chính về Network: 
 
 Path: \NT106.N21.MMCL-Project\Ball Island Stage 1\BallIsland_Client\Assets\Scripts\Client
-
+  Android Client: \NT106.N21.MMCL-Project\Ball Island Stage 1\BallIsland_ClientAndroid\Assets\Scripts\Client
 Path: \NT106.N21.MMCL-Project\Ball Island Stage 1\BallIsland_Server\Assets\Scripts\Server
