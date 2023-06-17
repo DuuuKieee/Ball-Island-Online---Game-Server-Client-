@@ -3,7 +3,8 @@ CLIENT-SERVER GAME ARCHITECTURE BALL ISLAND
 
 Network Programming Course Project (NT106.N21.MMCL).
 
-Team 9 Member:
+Team 9 
+Member:
 Trần Thành Lợi - 21522296 
 
 
